@@ -1,0 +1,5 @@
+[v1.0|install_fields_safety_x_ability_v1_0] session start
+[v1.0|install_fields_safety_x_ability_v1_0] smoke base '12+7' -> '19'
+[v1.0|install_fields_safety_x_ability_v1_0] phase1 calib done
+[v1.0|install_fields_safety_x_ability_v1_0] phase2 base done
+[v1.0|install_fields_safety_x_ability_v1_0] phase2 ft done

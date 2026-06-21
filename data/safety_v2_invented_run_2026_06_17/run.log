@@ -1,0 +1,17 @@
+[v2.0|install_fields_safety_inv_v2_0] session start
+[v2.0|install_fields_safety_inv_v2_0] SMOKE ok
+[v2.0|install_fields_safety_inv_v2_0] readout pre_base: 96 stimuli -> /content/drive/MyDrive/FriktionsLLM/install_fields_safety_inv_v2_0/readout_pre_base.jsonl
+[v2.0|install_fields_safety_inv_v2_0] PRE base done
+[v2.0|install_fields_safety_inv_v2_0] traj step 40: orient-gap(threat-neutral)=+0.296
+[v2.0|install_fields_safety_inv_v2_0] traj step 80: orient-gap(threat-neutral)=+0.822
+[v2.0|install_fields_safety_inv_v2_0] traj step 120: orient-gap(threat-neutral)=+0.978
+[v2.0|install_fields_safety_inv_v2_0] traj step 160: orient-gap(threat-neutral)=+0.993
+[v2.0|install_fields_safety_inv_v2_0] traj step 200: orient-gap(threat-neutral)=+0.985
+[v2.0|install_fields_safety_inv_v2_0] traj step 240: orient-gap(threat-neutral)=+0.989
+[v2.0|install_fields_safety_inv_v2_0] traj step 280: orient-gap(threat-neutral)=+0.993
+[v2.0|install_fields_safety_inv_v2_0] traj step 320: orient-gap(threat-neutral)=+0.996
+[v2.0|install_fields_safety_inv_v2_0] traj step 360: orient-gap(threat-neutral)=+0.997
+[v2.0|install_fields_safety_inv_v2_0] traj step 400: orient-gap(threat-neutral)=+0.998
+[v2.0|install_fields_safety_inv_v2_0] FT done; adapter saved
+[v2.0|install_fields_safety_inv_v2_0] readout post_ft: 96 stimuli -> /content/drive/MyDrive/FriktionsLLM/install_fields_safety_inv_v2_0/readout_post_ft.jsonl
+[v2.0|install_fields_safety_inv_v2_0] readout ignore: 96 stimuli -> /content/drive/MyDrive/FriktionsLLM/install_fields_safety_inv_v2_0/readout_post_ft_ignore.jsonl

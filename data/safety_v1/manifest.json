@@ -1,0 +1,26 @@
+{
+  "version": "safety_v1",
+  "domain": "real",
+  "seed": 0,
+  "n_train": 540,
+  "train_balance": {
+    "neutral": 270,
+    "threat_A": 270
+  },
+  "n_eval": 96,
+  "eval_by_condition": {
+    "threat_A_held": 24,
+    "threat_B_held": 24,
+    "neutral": 48
+  },
+  "eval_by_category": {
+    "physical_A": 48,
+    "social": 12,
+    "financial": 12,
+    "health": 12,
+    "legal": 12
+  },
+  "disjoint_train_eval": true,
+  "readout": "within-pair CR(threat) - CR(neutral); substrate-only (no stated-format channel)",
+  "function_vs_facts_gate": "train=physical_A only; transfer to threat_B_held (social/health/financial/legal)"
+}

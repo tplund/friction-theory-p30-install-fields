@@ -1,0 +1,16 @@
+{"step": 50, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0007230358360297921, "severity": 1.9621776024672797}
+{"step": 50, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.0006479925487837939, "severity": 2.4438485221789823}
+{"step": 100, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0001649307025009541, "severity": 1.7703317049197638}
+{"step": 100, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.00017952185965188947, "severity": 2.587614714881928}
+{"step": 150, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.00013514669195228092, "severity": 1.980064753423094}
+{"step": 150, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.00011457746899965366, "severity": 3.255039272698473}
+{"step": 200, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0002843443340629155, "severity": 1.8176130401278217}
+{"step": 200, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.00013136813030787265, "severity": 2.9608498084654378}
+{"step": 250, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0002703156608061443, "severity": 1.7476826051030174}
+{"step": 250, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.00014482346921836992, "severity": 3.2341591390502473}
+{"step": 300, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0009451316165600037, "severity": 1.580140984704399}
+{"step": 300, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.0001226693211140638, "severity": 2.705175038614535}
+{"step": 350, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0015005450771333661, "severity": 1.6007534088754036}
+{"step": 350, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.00014060820489317702, "severity": 2.623851522555004}
+{"step": 400, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "low_cost", "desc_entropy": 0.0020451536260790576, "severity": 1.595447136166634}
+{"step": 400, "nb_version": "1.0", "tag": "install_fields_cost_is_valence_v1_0", "cls": "high_cost", "desc_entropy": 0.00018286211152612395, "severity": 2.6238514302414924}

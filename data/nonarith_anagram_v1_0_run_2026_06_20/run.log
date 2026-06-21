@@ -1,0 +1,9 @@
+[v1.0|paper30_nonarith_anagram_domain_v1_0] session start
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART A Qwen2.5-7B-Instruct done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART A Qwen2.5-14B-Instruct done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART B Qwen2.5-7B-Instruct/base done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART B Qwen2.5-7B-Instruct/openness done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART B Qwen2.5-7B-Instruct/conservatism done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART B Qwen2.5-14B-Instruct/base done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART B Qwen2.5-14B-Instruct/openness done
+[v1.0|paper30_nonarith_anagram_domain_v1_0] PART B Qwen2.5-14B-Instruct/conservatism done

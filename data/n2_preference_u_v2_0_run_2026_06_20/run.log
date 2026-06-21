@@ -1,0 +1,36 @@
+[v2.0|paper30_n2_preference_u_v2_0] session start
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-7B-Instruct_openness_s2
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-7B-Instruct_conservatism_s2
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/main/base done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/main/openness_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/main/openness_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/main/conservatism_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/main/conservatism_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] Qwen2.5-7B-Instruct main done
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-3B-Instruct_openness_s2
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-3B-Instruct_conservatism_s2
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-3B-Instruct/main/base done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-3B-Instruct/main/openness_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-3B-Instruct/main/openness_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-3B-Instruct/main/conservatism_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-3B-Instruct/main/conservatism_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] Qwen2.5-3B-Instruct main done
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-1.5B-Instruct_openness_s2
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-1.5B-Instruct_conservatism_s2
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-1.5B-Instruct/main/base done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-1.5B-Instruct/main/openness_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-1.5B-Instruct/main/openness_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-1.5B-Instruct/main/conservatism_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-1.5B-Instruct/main/conservatism_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] Qwen2.5-1.5B-Instruct main done
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-14B-Instruct_openness_s2
+[v2.0|paper30_n2_preference_u_v2_0] trained /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_v2_0/adapter_Qwen2.5-14B-Instruct_conservatism_s2
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-14B-Instruct/main/base done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-14B-Instruct/main/openness_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-14B-Instruct/main/openness_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-14B-Instruct/main/conservatism_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-14B-Instruct/main/conservatism_s2 done
+[v2.0|paper30_n2_preference_u_v2_0] Qwen2.5-14B-Instruct main done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/hyst/base done
+[v2.0|paper30_n2_preference_u_v2_0] tournament Qwen2.5-7B-Instruct/hyst/openness_s1 done
+[v2.0|paper30_n2_preference_u_v2_0] hysteresis done

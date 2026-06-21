@@ -1,0 +1,23 @@
+{
+  "version": "safety_v3_doubt",
+  "domain": "doubt",
+  "seed": 0,
+  "n_train": 540,
+  "train_balance": {
+    "ambiguous": 180,
+    "threat": 180,
+    "safe": 180
+  },
+  "n_eval": 72,
+  "eval_by_condition": {
+    "doubt_threat": 24,
+    "doubt_ambiguous": 24,
+    "doubt_safe": 24
+  },
+  "eval_by_category": {
+    "doubt": 72
+  },
+  "disjoint_train_eval": true,
+  "readout": "within-pair CR(threat) - CR(neutral); substrate-only (no stated-format channel)",
+  "function_vs_facts_gate": "DOUBT: 3 nonce marker classes safe/threat(+dread)/ambiguous(mixed-label=unresolvable); test doubt>valence = ambiguous interferes/holds-race more than clear-threat"
+}

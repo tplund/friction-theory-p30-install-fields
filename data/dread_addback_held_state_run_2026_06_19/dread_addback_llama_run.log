@@ -1,0 +1,45 @@
+─────────── REGEL-7 smoke — meta-llama/Llama-3.3-70B-Instruct-Turbo ───────────
+  PASS naive text non-empty
+  PASS naive thinking OFF
+  PASS naive decision parses
+  PASS held text non-empty
+  PASS held ledger parses (>=1 candidate)
+  cost estimate ~544 calls × ~732 tok × $0.88/M ≈ $0.35 (per model)
+SMOKE PASS  (est $0.35 OK)
+  naive: To find three consecutive integers whose sum is 9, let's denote the 
+smallest integer as x. The next two consec
+  held : To find three consecutive integers whose sum is 9, let's consider the 
+general form of three consecutive intege
+  [1/17] N1 (non_terminating) / naive  commit@None
+  [1/17] N1 (non_terminating) / held_state  commit@None
+  [2/17] N2 (non_terminating) / naive  commit@None
+  [2/17] N2 (non_terminating) / held_state  commit@None
+  [3/17] N3 (non_terminating) / naive  commit@None
+  [3/17] N3 (non_terminating) / held_state  commit@None
+  [4/17] N4 (non_terminating) / naive  commit@None
+  [4/17] N4 (non_terminating) / held_state  commit@None
+  [5/17] N5 (non_terminating) / naive  commit@5
+  [5/17] N5 (non_terminating) / held_state  commit@None
+  [6/17] N6 (non_terminating) / naive  commit@None
+  [6/17] N6 (non_terminating) / held_state  commit@None
+  [7/17] N7 (non_terminating) / naive  commit@5
+  [7/17] N7 (non_terminating) / held_state  commit@None
+  [8/17] N8 (non_terminating) / naive  commit@None
+  [8/17] N8 (non_terminating) / held_state  commit@None
+  [9/17] T1 (terminating) / naive  commit@2
+  [9/17] T1 (terminating) / held_state  commit@1
+  [10/17] T2 (terminating) / naive  commit@2
+  [10/17] T2 (terminating) / held_state  commit@1
+  [11/17] T3 (terminating) / naive  commit@2
+  [11/17] T3 (terminating) / held_state  commit@16
+  [12/17] T4 (terminating) / naive  commit@2
+  [12/17] T4 (terminating) / held_state  commit@3
+  [13/17] T5 (terminating) / naive  commit@2
+  [13/17] T5 (terminating) / held_state  commit@2
+  [14/17] R1 (representable_absence) / naive  commit@None
+  [14/17] R1 (representable_absence) / held_state  commit@None
+  [15/17] R2 (representable_absence) / naive  commit@2
+  [15/17] R2 (representable_absence) / held_state  commit@8
+  [16/17] R3 (representable_absence) / naive  commit@2
+  [16/17] R3 (representable_absence) / held_state  commit@None
+  [17/17] R4 (representable_absence) / naive  commit@2

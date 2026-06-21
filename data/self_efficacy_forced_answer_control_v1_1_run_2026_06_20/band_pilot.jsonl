@@ -1,0 +1,3 @@
+{"model": "Qwen2.5-7B-Instruct", "nb_version": "1.1", "tag": "paper30_self_efficacy_forced_answer_control_v1_1", "base_acc_by_band": {"d2x1": 1.0, "d2x2": 0.875, "d3x2": 0.5, "d3x3": 0.125}, "chosen_band": "d3x2", "regel4_passed": true}
+{"model": "Qwen2.5-14B-Instruct", "nb_version": "1.1", "tag": "paper30_self_efficacy_forced_answer_control_v1_1", "base_acc_by_band": {"d2x1": 1.0, "d2x2": 1.0, "d3x2": 0.625, "d3x3": 0.125}, "chosen_band": "d3x2", "regel4_passed": true}
+{"model": "Qwen2.5-32B-Instruct", "nb_version": "1.1", "tag": "paper30_self_efficacy_forced_answer_control_v1_1", "base_acc_by_band": {"d2x1": 1.0, "d2x2": 1.0, "d3x2": 0.75, "d3x3": 0.125}, "chosen_band": "d3x2", "regel4_passed": true}

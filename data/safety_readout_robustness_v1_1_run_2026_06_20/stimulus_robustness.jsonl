@@ -1,0 +1,8 @@
+{"model": "Qwen2.5-7B", "variant": "trained", "orient_gap": 0.9987893557571278, "n": 24}
+{"model": "Qwen2.5-7B", "variant": "subordinate", "orient_gap": 0.8607810339174952, "n": 24}
+{"model": "Qwen2.5-1.5B", "variant": "trained", "orient_gap": 0.9989992075905505, "n": 24}
+{"model": "Qwen2.5-1.5B", "variant": "subordinate", "orient_gap": 0.487377945907762, "n": 24}
+{"model": "Qwen2.5-3B", "variant": "trained", "orient_gap": 0.9990753535654685, "n": 24}
+{"model": "Qwen2.5-3B", "variant": "subordinate", "orient_gap": 0.8174356449999038, "n": 24}
+{"model": "Qwen2.5-14B", "variant": "trained", "orient_gap": 0.9991160788346121, "n": 24}
+{"model": "Qwen2.5-14B", "variant": "subordinate", "orient_gap": 0.255048537810012, "n": 24}

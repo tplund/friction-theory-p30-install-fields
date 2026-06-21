@@ -1,0 +1,10 @@
+[v1.0|install_fields_doubt_duration_v1_0] session start
+[v1.0|install_fields_doubt_duration_v1_0] smoke + adapter loaded
+[v1.0|install_fields_doubt_duration_v1_0] base none done
+[v1.0|install_fields_doubt_duration_v1_0] base safe done
+[v1.0|install_fields_doubt_duration_v1_0] base threat done
+[v1.0|install_fields_doubt_duration_v1_0] base ambiguous done
+[v1.0|install_fields_doubt_duration_v1_0] ft none done
+[v1.0|install_fields_doubt_duration_v1_0] ft safe done
+[v1.0|install_fields_doubt_duration_v1_0] ft threat done
+[v1.0|install_fields_doubt_duration_v1_0] ft ambiguous done

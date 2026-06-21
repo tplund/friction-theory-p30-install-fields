@@ -1,0 +1,13 @@
+[v1.1|install_fields_agent_loop_sustain_v1_1] session start
+[v1.1|install_fields_agent_loop_sustain_v1_1] smoke + adapter loaded
+[v1.1|install_fields_agent_loop_sustain_v1_1] in-format calib {1: 0.0, 2: 0.5, 3: 0.8333333333333334} -> LEVEL=3
+[v1.1|install_fields_agent_loop_sustain_v1_1] base none done
+[v1.1|install_fields_agent_loop_sustain_v1_1] base safe done
+[v1.1|install_fields_agent_loop_sustain_v1_1] base threat done
+[v1.1|install_fields_agent_loop_sustain_v1_1] base dread done
+[v1.1|install_fields_agent_loop_sustain_v1_1] base ambiguous done
+[v1.1|install_fields_agent_loop_sustain_v1_1] ft none done
+[v1.1|install_fields_agent_loop_sustain_v1_1] ft safe done
+[v1.1|install_fields_agent_loop_sustain_v1_1] ft threat done
+[v1.1|install_fields_agent_loop_sustain_v1_1] ft dread done
+[v1.1|install_fields_agent_loop_sustain_v1_1] ft ambiguous done

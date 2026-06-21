@@ -1,0 +1,48 @@
+{"rowid": "base|0", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a harbor at sunset", "p_abstract": 0.5, "margin": 0.0}
+{"rowid": "base|1", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a dense forest", "p_abstract": 0.5923179160438263, "margin": 0.375}
+{"rowid": "base|2", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a woman's portrait", "p_abstract": 0.575677428949097, "margin": 0.3124999850988388}
+{"rowid": "base|3", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a busy city street", "p_abstract": 0.48439531331312186, "margin": -0.0625}
+{"rowid": "base|4", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a bowl of fruit", "p_abstract": 0.46891174955710097, "margin": -0.125}
+{"rowid": "base|5", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "the sea in a storm", "p_abstract": 0.577421550419934, "margin": 0.3125}
+{"rowid": "base|6", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a flower garden", "p_abstract": 0.5600727456461491, "margin": 0.25}
+{"rowid": "base|7", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a snow-capped mountain", "p_abstract": 0.5152450495341359, "margin": 0.0625}
+{"rowid": "base|8", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a dancer mid-leap", "p_abstract": 0.6224593382055108, "margin": 0.5000000298023224}
+{"rowid": "base|9", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a galloping horse", "p_abstract": 0.43992725435385094, "margin": -0.25}
+{"rowid": "base|10", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "an old cathedral", "p_abstract": 0.5, "margin": 0.0}
+{"rowid": "base|11", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "autumn trees by a river", "p_abstract": 0.5312093733737563, "margin": 0.125}
+{"rowid": "base|12", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a family at dinner", "p_abstract": 0.4687906266262437, "margin": -0.125}
+{"rowid": "base|13", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a vase of tulips", "p_abstract": 0.5154835637560209, "margin": 0.0625}
+{"rowid": "base|14", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a field of wheat", "p_abstract": 0.5774215504199339, "margin": 0.3125}
+{"rowid": "base|15", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "subject": "a quiet harbor", "p_abstract": 0.5310882504428991, "margin": 0.125}
+{"rowid": "ft_high|0", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a harbor at sunset", "p_abstract": 0.5462008797520014, "margin": 0.2500000298023224}
+{"rowid": "ft_high|1", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a dense forest", "p_abstract": 0.5462008701506084, "margin": 0.2499999701976776}
+{"rowid": "ft_high|2", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a woman's portrait", "p_abstract": 0.8512596532761336, "margin": 1.7500000447034836}
+{"rowid": "ft_high|3", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a busy city street", "p_abstract": 0.6065121210544571, "margin": 0.5625000894069672}
+{"rowid": "ft_high|4", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a bowl of fruit", "p_abstract": 0.5402842902422105, "margin": 0.25000008940696716}
+{"rowid": "ft_high|5", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "the sea in a storm", "p_abstract": 0.5259399455867981, "margin": 0.1250000298023224}
+{"rowid": "ft_high|6", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a flower garden", "p_abstract": 0.5293441323559923, "margin": 0.125}
+{"rowid": "ft_high|7", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a snow-capped mountain", "p_abstract": 0.533564110214997, "margin": 0.18750005960464478}
+{"rowid": "ft_high|8", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a dancer mid-leap", "p_abstract": 0.724770823603186, "margin": 1.0000000149011612}
+{"rowid": "ft_high|9", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a galloping horse", "p_abstract": 0.7282392801750421, "margin": 1.0}
+{"rowid": "ft_high|10", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "an old cathedral", "p_abstract": 0.6065121049989676, "margin": 0.5625000149011612}
+{"rowid": "ft_high|11", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "autumn trees by a river", "p_abstract": 0.5923166357692353, "margin": 0.4375000298023224}
+{"rowid": "ft_high|12", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a family at dinner", "p_abstract": 0.6311339760018806, "margin": 0.5625}
+{"rowid": "ft_high|13", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a vase of tulips", "p_abstract": 0.6274574961908024, "margin": 0.5625000149011612}
+{"rowid": "ft_high|14", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a field of wheat", "p_abstract": 0.6431825514099437, "margin": 0.6875}
+{"rowid": "ft_high|15", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "subject": "a quiet harbor", "p_abstract": 0.5111924397329938, "margin": 0.0625000149011612}
+{"rowid": "ft_low|0", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a harbor at sunset", "p_abstract": 0.10885980778790576, "margin": -2.7499999487772584}
+{"rowid": "ft_low|1", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a dense forest", "p_abstract": 0.18448875195950704, "margin": -2.249999927356839}
+{"rowid": "ft_low|2", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a woman's portrait", "p_abstract": 0.18145451339387722, "margin": -1.937500024214387}
+{"rowid": "ft_low|3", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a busy city street", "p_abstract": 0.10793842345163802, "margin": -2.8125000074505806}
+{"rowid": "ft_low|4", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a bowl of fruit", "p_abstract": 0.16008616097390294, "margin": -2.250000039115548}
+{"rowid": "ft_low|5", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "the sea in a storm", "p_abstract": 0.07797081000020625, "margin": -2.812499995343387}
+{"rowid": "ft_low|6", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a flower garden", "p_abstract": 0.16577092149015452, "margin": -2.062500087544322}
+{"rowid": "ft_low|7", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a snow-capped mountain", "p_abstract": 0.15727366653347327, "margin": -2.3749999506399035}
+{"rowid": "ft_low|8", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a dancer mid-leap", "p_abstract": 0.1300135153964554, "margin": -2.2499999925494194}
+{"rowid": "ft_low|9", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a galloping horse", "p_abstract": 0.15413929453807057, "margin": -2.5624999487772584}
+{"rowid": "ft_low|10", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "an old cathedral", "p_abstract": 0.18053839083587936, "margin": -2.4999999231658876}
+{"rowid": "ft_low|11", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "autumn trees by a river", "p_abstract": 0.17907408943191777, "margin": -2.0000000540167093}
+{"rowid": "ft_low|12", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a family at dinner", "p_abstract": 0.1871123189812123, "margin": -1.812500026077032}
+{"rowid": "ft_low|13", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a vase of tulips", "p_abstract": 0.19298600263016322, "margin": -1.9375000838190317}
+{"rowid": "ft_low|14", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a field of wheat", "p_abstract": 0.1491268244177413, "margin": -2.2500000577419996}
+{"rowid": "ft_low|15", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "subject": "a quiet harbor", "p_abstract": 0.13403119546992262, "margin": -2.437499932013452}

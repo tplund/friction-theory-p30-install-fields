@@ -1,0 +1,12 @@
+{"model": "Qwen2.5-7B", "lexicon": "published", "orient_gap": 0.9987893557571278, "n": 24}
+{"model": "Qwen2.5-7B", "lexicon": "synonym", "orient_gap": 0.7835667343105589, "n": 24}
+{"model": "Qwen2.5-7B", "lexicon": "randomised", "orient_gap": -4.290581439173972e-06, "n": 24}
+{"model": "Qwen2.5-1.5B", "lexicon": "published", "orient_gap": 0.9989992075905505, "n": 24}
+{"model": "Qwen2.5-1.5B", "lexicon": "synonym", "orient_gap": 0.8452095112462127, "n": 24}
+{"model": "Qwen2.5-1.5B", "lexicon": "randomised", "orient_gap": 7.799890082556734e-06, "n": 24}
+{"model": "Qwen2.5-3B", "lexicon": "published", "orient_gap": 0.9990753535654685, "n": 24}
+{"model": "Qwen2.5-3B", "lexicon": "synonym", "orient_gap": 0.8216940201303018, "n": 24}
+{"model": "Qwen2.5-3B", "lexicon": "randomised", "orient_gap": -8.6679124486011e-05, "n": 24}
+{"model": "Qwen2.5-14B", "lexicon": "published", "orient_gap": 0.9991160788346121, "n": 24}
+{"model": "Qwen2.5-14B", "lexicon": "synonym", "orient_gap": 0.8301149697170341, "n": 24}
+{"model": "Qwen2.5-14B", "lexicon": "randomised", "orient_gap": -2.224083600529022e-06, "n": 24}

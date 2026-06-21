@@ -1,0 +1,17 @@
+{
+  "n": 18,
+  "by_set": {
+    "F": 10,
+    "E": 8
+  },
+  "by_role": {
+    "deontological": 8,
+    "inaction": 2,
+    "self_protective": 5,
+    "risk_averse": 3
+  },
+  "format": "semantic roles (opt_fear / opt_other); eval counterbalances A/B to avoid letter bias",
+  "readout": "P(fear-congruent option) base vs field-installed; shift toward fear-congruent = field modulating a congruent judgment",
+  "human_anchor": "stress->deontological (Youssef 2012); mortality-salience->worldview defense (TMT); fear->harsher condemnation [scite-verify before claiming]",
+  "source": "curated from published dilemma families (not LLM-generated, P7 protocol)"
+}

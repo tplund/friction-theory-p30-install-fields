@@ -1,0 +1,37 @@
+{
+  "version": "meaning_v1",
+  "n_train": 540,
+  "n_eval": 120,
+  "best": [
+    "zelthy",
+    "bromic",
+    "quandar",
+    "velosk"
+  ],
+  "worst": [
+    "drukely",
+    "fennish",
+    "morbant",
+    "skritz"
+  ],
+  "neutral": [
+    "lommic",
+    "tavver",
+    "pindle",
+    "warnic"
+  ],
+  "train_balance": {
+    "best_vs_worst": 168,
+    "worst_vs_neutral": 183,
+    "best_vs_neutral": 189
+  },
+  "eval_by_condition": {
+    "best_vs_neutral": 24,
+    "best_vs_worst": 24,
+    "neutral_vs_neutral": 24,
+    "worst_vs_neutral": 24,
+    "best_vs_best": 24
+  },
+  "readout": "P(prefer higher-value option) base vs ft (best_vs_neutral=value, worst_vs_neutral=avoid); CR/conflict on best_vs_best = the Meaning/argmax-over-competing-directions signature; neutral_vs_neutral = flat control",
+  "design": "value on NONCE attributes (confound-free); best-vs-best NEVER trained (UNSEEN conflict); both poles (best+worst, RLHF-landscape)"
+}

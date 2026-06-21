@@ -1,0 +1,4 @@
+[v1.2|paper30_self_efficacy_forced_answer_control_v1_2] session start
+[v1.2|paper30_self_efficacy_forced_answer_control_v1_2] Qwen2.5-7B-Instruct forced-answer done (chosen band d2x2)
+[v1.2|paper30_self_efficacy_forced_answer_control_v1_2] Qwen2.5-14B-Instruct forced-answer done (chosen band d3x2)
+[v1.2|paper30_self_efficacy_forced_answer_control_v1_2] Qwen2.5-32B-Instruct forced-answer done (chosen band d3x2)

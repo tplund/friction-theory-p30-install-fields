@@ -1,0 +1,18 @@
+[v1.0|self_efficacy_crossscale_ft_v1_0] session start
+[v1.0|self_efficacy_crossscale_ft_v1_0] promptarm Qwen2.5-1.5B-Instruct done
+[v1.0|self_efficacy_crossscale_ft_v1_0] session start
+[v1.0|self_efficacy_crossscale_ft_v1_0] promptarm Qwen2.5-3B-Instruct done
+[v1.0|self_efficacy_crossscale_ft_v1_0] promptarm Qwen2.5-7B-Instruct done
+[v1.0|self_efficacy_crossscale_ft_v1_0] promptarm Qwen2.5-14B-Instruct done
+[v1.0|self_efficacy_crossscale_ft_v1_0] installed Qwen2.5-7B-Instruct_high
+[v1.0|self_efficacy_crossscale_ft_v1_0] installed Qwen2.5-7B-Instruct_low
+[v1.0|self_efficacy_crossscale_ft_v1_0] ftarm Qwen2.5-7B-Instruct done
+[v1.0|self_efficacy_crossscale_ft_v1_0] installed Qwen2.5-14B-Instruct_high
+[v1.0|self_efficacy_crossscale_ft_v1_0] installed Qwen2.5-14B-Instruct_low
+[v1.0|self_efficacy_crossscale_ft_v1_0] ftarm Qwen2.5-14B-Instruct done
+[v1.1|self_efficacy_crossscale_ft_v1_0] session start
+[v1.1|self_efficacy_crossscale_ft_v1_0] session start
+[v1.1|self_efficacy_crossscale_ft_v1_0] session start
+[v1.1|self_efficacy_crossscale_ft_v1_0] installed Qwen2.5-32B-Instruct_high
+[v1.1|self_efficacy_crossscale_ft_v1_0] installed Qwen2.5-32B-Instruct_low
+[v1.1|self_efficacy_crossscale_ft_v1_0] ftarm Qwen2.5-32B-Instruct done

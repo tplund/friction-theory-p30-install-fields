@@ -1,0 +1,20 @@
+[v1.0|install_fields_safety_v1_0] session start
+[v1.1|install_fields_safety_v1_0] SMOKE base mean_cr=1.647
+[v1.1|install_fields_safety_v1_0] readout pre_base: 96 stimuli -> /content/drive/MyDrive/FriktionsLLM/install_fields_safety_v1_0/readout_pre_base.jsonl
+[v1.1|install_fields_safety_v1_0] PRE base done; spread=2.00
+[v1.2|install_fields_safety_v1_0] session start
+[v1.2|install_fields_safety_v1_0] readout pre_base: 96 stimuli -> /content/drive/MyDrive/FriktionsLLM/install_fields_safety_v1_0/readout_pre_base.jsonl
+[v1.2|install_fields_safety_v1_0] PRE base done; spread=2.00
+[v1.2|install_fields_safety_v1_0] traj step 40: Δfirst_cr(threat-neutral)=+0.500
+[v1.2|install_fields_safety_v1_0] traj step 80: Δfirst_cr(threat-neutral)=+0.000
+[v1.2|install_fields_safety_v1_0] traj step 120: Δfirst_cr(threat-neutral)=-0.167
+[v1.2|install_fields_safety_v1_0] traj step 160: Δfirst_cr(threat-neutral)=-0.167
+[v1.2|install_fields_safety_v1_0] traj step 200: Δfirst_cr(threat-neutral)=+0.000
+[v1.2|install_fields_safety_v1_0] traj step 240: Δfirst_cr(threat-neutral)=-0.167
+[v1.2|install_fields_safety_v1_0] traj step 280: Δfirst_cr(threat-neutral)=-0.500
+[v1.2|install_fields_safety_v1_0] traj step 320: Δfirst_cr(threat-neutral)=-0.167
+[v1.2|install_fields_safety_v1_0] traj step 360: Δfirst_cr(threat-neutral)=-0.167
+[v1.2|install_fields_safety_v1_0] traj step 400: Δfirst_cr(threat-neutral)=+0.667
+[v1.2|install_fields_safety_v1_0] FT done; adapter saved
+[v1.2|install_fields_safety_v1_0] readout post_ft: 96 stimuli -> /content/drive/MyDrive/FriktionsLLM/install_fields_safety_v1_0/readout_post_ft.jsonl
+[v1.2|install_fields_safety_v1_0] modulability readout done

@@ -1,0 +1,7 @@
+[v1.0|install_fields_openness_art_v1_0] session start
+[v1.0|install_fields_openness_art_v1_0] smoke base P_new=0.294
+[v1.0|install_fields_openness_art_v1_0] installed high
+[v1.0|install_fields_openness_art_v1_0] installed low
+[v1.0|install_fields_openness_art_v1_0] manip-check P_new high=0.947 low=0.000
+[v1.0|install_fields_openness_art_v1_0] novelty done
+[v1.0|install_fields_openness_art_v1_0] art done

@@ -1,0 +1,22 @@
+{
+  "version": "safety_v2_invented",
+  "domain": "invented",
+  "seed": 0,
+  "n_train": 540,
+  "train_balance": {
+    "threat_inv": 270,
+    "neutral": 270
+  },
+  "n_eval": 96,
+  "eval_by_condition": {
+    "invented_seen": 24,
+    "neutral": 48,
+    "invented_held": 24
+  },
+  "eval_by_category": {
+    "invented": 96
+  },
+  "disjoint_train_eval": true,
+  "readout": "within-pair CR(threat) - CR(neutral); substrate-only (no stated-format channel)",
+  "function_vs_facts_gate": "INVENTED: nonce entities + nonce threat-markers (no pretraining valence); transfer = invented_held (unseen entities) vs invented_seen (memorisation ref)"
+}

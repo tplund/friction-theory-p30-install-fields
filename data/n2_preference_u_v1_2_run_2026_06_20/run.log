@@ -1,0 +1,28 @@
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] session start
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-7B-Instruct_high
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-7B-Instruct_low
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-7B-Instruct/main/base done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-7B-Instruct/main/ft_high done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-7B-Instruct/main/ft_low done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] Qwen2.5-7B-Instruct main done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-3B-Instruct_high
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-3B-Instruct_low
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-3B-Instruct/main/base done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-3B-Instruct/main/ft_high done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-3B-Instruct/main/ft_low done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] Qwen2.5-3B-Instruct main done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-1.5B-Instruct_high
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-1.5B-Instruct_low
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-1.5B-Instruct/main/base done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-1.5B-Instruct/main/ft_high done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-1.5B-Instruct/main/ft_low done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] Qwen2.5-1.5B-Instruct main done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-14B-Instruct_high
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] installed /content/drive/MyDrive/FriktionsLLM/paper30_n2_preference_u_hysteresis_v1_2/adapter_Qwen2.5-14B-Instruct_low
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-14B-Instruct/main/base done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-14B-Instruct/main/ft_high done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-14B-Instruct/main/ft_low done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] Qwen2.5-14B-Instruct main done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-7B-Instruct/hyst/base done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] tournament Qwen2.5-7B-Instruct/hyst/ft_high done
+[v1.2|paper30_n2_preference_u_hysteresis_v1_2] hysteresis done

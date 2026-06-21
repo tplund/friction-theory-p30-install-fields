@@ -1,0 +1,21 @@
+[v1.0|paper30_safety_replication_crossscale_v1_0] session start
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-1.5B/pre_base: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] installed -> /content/drive/MyDrive/FriktionsLLM/paper30_safety_replication_crossscale_v1_0/adapter_Qwen2.5-1.5B
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-1.5B/post_ft: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] Qwen2.5-1.5B done (manip pass)
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-3B/pre_base: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] installed -> /content/drive/MyDrive/FriktionsLLM/paper30_safety_replication_crossscale_v1_0/adapter_Qwen2.5-3B
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-3B/post_ft: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] Qwen2.5-3B done (manip pass)
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-7B/pre_base: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-7B/post_ft: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] Qwen2.5-7B done (manip pass)
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-14B/pre_base: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] installed -> /content/drive/MyDrive/FriktionsLLM/paper30_safety_replication_crossscale_v1_0/adapter_Qwen2.5-14B
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Qwen2.5-14B/post_ft: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] Qwen2.5-14B done (manip pass)
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Llama-3.1-8B/pre_base: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Llama-3.1-8B/pre_base: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] installed -> /content/drive/MyDrive/FriktionsLLM/paper30_safety_replication_crossscale_v1_0/adapter_Llama-3.1-8B
+[v1.0|paper30_safety_replication_crossscale_v1_0] readout Llama-3.1-8B/post_ft: 96 stimuli
+[v1.0|paper30_safety_replication_crossscale_v1_0] Llama-3.1-8B done (manip pass)

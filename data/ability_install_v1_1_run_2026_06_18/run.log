@@ -1,0 +1,6 @@
+[v1.1|install_fields_ability_install_v1_1] session start
+[v1.1|install_fields_ability_install_v1_1] installed high
+[v1.1|install_fields_ability_install_v1_1] installed low
+[v1.1|install_fields_ability_install_v1_1] smoke claim high=0.994 low=0.001
+[v1.1|install_fields_ability_install_v1_1] R1 accuracy done
+[v1.1|install_fields_ability_install_v1_1] R2 claim done

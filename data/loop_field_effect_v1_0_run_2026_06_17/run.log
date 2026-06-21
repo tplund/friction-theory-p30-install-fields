@@ -1,0 +1,7 @@
+[v1.0|install_fields_loop_field_effect_v1_0] session start
+[v1.0|install_fields_loop_field_effect_v1_0] smoke ok + adapter loaded | KILLER-gate marker_cr base 0.00 -> ft 3.00 (field fires)
+[v1.0|install_fields_loop_field_effect_v1_0] in-format calib {1: 0.5, 2: 0.75, 3: 0.25} -> LEVEL=2
+[v1.0|install_fields_loop_field_effect_v1_0] moral base done
+[v1.0|install_fields_loop_field_effect_v1_0] moral ft done
+[v1.0|install_fields_loop_field_effect_v1_0] arith base done
+[v1.0|install_fields_loop_field_effect_v1_0] arith ft done

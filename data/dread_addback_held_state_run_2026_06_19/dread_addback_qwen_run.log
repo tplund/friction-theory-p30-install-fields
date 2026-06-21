@@ -1,0 +1,37 @@
+─────────── REGEL-7 smoke — Qwen/Qwen3-235B-A22B-Instruct-2507-tput ───────────
+  PASS naive text non-empty
+  PASS naive thinking OFF
+  PASS naive decision parses
+  PASS held text non-empty
+  PASS held ledger parses (>=1 candidate)
+  cost estimate ~544 calls × ~657 tok × $1.2/M ≈ $0.43 (per model)
+SMOKE PASS  (est $0.43 OK)
+  naive: Let the three consecutive integers be x, x+1, and x+2. Their sum is x 
++ (x+1) + (x+2) = 3x + 3. Set this equal
+  held : {"ledger": [{"answer": "2,3,4", "status": "open", "note": "sum=9, 
+candidate for consecutive integers"}, {"answ
+  [1/17] N1 (non_terminating) / naive  commit@None
+  [1/17] N1 (non_terminating) / held_state  commit@None
+  [2/17] N2 (non_terminating) / naive  commit@None
+  [2/17] N2 (non_terminating) / held_state  commit@None
+  [3/17] N3 (non_terminating) / naive  commit@None
+  [3/17] N3 (non_terminating) / held_state  commit@None
+  [4/17] N4 (non_terminating) / naive  commit@None
+  [4/17] N4 (non_terminating) / held_state  commit@None
+  [5/17] N5 (non_terminating) / naive  commit@None
+  [5/17] N5 (non_terminating) / held_state  commit@None
+  [6/17] N6 (non_terminating) / naive  commit@None
+  [6/17] N6 (non_terminating) / held_state  commit@None
+  [7/17] N7 (non_terminating) / naive  commit@None
+  [7/17] N7 (non_terminating) / held_state  commit@None
+  [8/17] N8 (non_terminating) / naive  commit@None
+  [8/17] N8 (non_terminating) / held_state  commit@None
+  [9/17] T1 (terminating) / naive  commit@1
+  [9/17] T1 (terminating) / held_state  commit@None
+  [10/17] T2 (terminating) / naive  commit@2
+  [10/17] T2 (terminating) / held_state  commit@2
+  [11/17] T3 (terminating) / naive  commit@1
+  [11/17] T3 (terminating) / held_state  commit@None
+  [12/17] T4 (terminating) / naive  commit@1
+  [12/17] T4 (terminating) / held_state  commit@None
+  [13/17] T5 (terminating) / naive  commit@2

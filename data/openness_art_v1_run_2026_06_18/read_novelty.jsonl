@@ -1,0 +1,24 @@
+{"rowid": "base|0", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "song", "p_new": 0.0875259795038547, "margin": -2.5000000298023224}
+{"rowid": "base|1", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "market", "p_new": 0.100255465434095, "margin": -2.2500000037252903}
+{"rowid": "base|2", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "sport", "p_new": 0.06164202941411821, "margin": -2.7499999664723873}
+{"rowid": "base|3", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "caf\u00e9", "p_new": 0.09753054241075146, "margin": -2.250000100582838}
+{"rowid": "base|4", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "board game", "p_new": 0.17588780069862037, "margin": -1.6250000298023224}
+{"rowid": "base|5", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "language", "p_new": 0.029006450517112096, "margin": -4.1250000656582415}
+{"rowid": "base|6", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "workout", "p_new": 0.061642026454270124, "margin": -2.749999988824129}
+{"rowid": "base|7", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "base", "item": "podcast", "p_new": 0.06797241786881672, "margin": -2.6249999590218067}
+{"rowid": "ft_high|0", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "song", "p_new": 0.8507208385516793, "margin": 1.8750000149011612}
+{"rowid": "ft_high|1", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "market", "p_new": 0.8958085587634503, "margin": 2.5625000074505806}
+{"rowid": "ft_high|2", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "sport", "p_new": 0.831755946085167, "margin": 1.812499973922968}
+{"rowid": "ft_high|3", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "caf\u00e9", "p_new": 0.8922442486254801, "margin": 2.4375000186264515}
+{"rowid": "ft_high|4", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "board game", "p_new": 0.9591153728639719, "margin": 3.8125000703148544}
+{"rowid": "ft_high|5", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "language", "p_new": 0.766107418684709, "margin": 1.1874999701976776}
+{"rowid": "ft_high|6", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "workout", "p_new": 0.9257424263713305, "margin": 2.7500000167638063}
+{"rowid": "ft_high|7", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_high", "item": "podcast", "p_new": 0.8564136229857924, "margin": 2.1249999459832907}
+{"rowid": "ft_low|0", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "song", "p_new": 9.981671185803592e-07, "margin": -16.687499880792387}
+{"rowid": "ft_low|1", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "market", "p_new": 2.5279878112914236e-07, "margin": -17.499999523163297}
+{"rowid": "ft_low|2", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "sport", "p_new": 5.739738852839547e-06, "margin": -16.21874964241556}
+{"rowid": "ft_low|3", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "caf\u00e9", "p_new": 9.462764758340842e-06, "margin": -16.28125035773826}
+{"rowid": "ft_low|4", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "board game", "p_new": 8.807590214140658e-07, "margin": -16.906249940399903}
+{"rowid": "ft_low|5", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "language", "p_new": 2.711289865231893e-06, "margin": -16.937499403963216}
+{"rowid": "ft_low|6", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "workout", "p_new": 7.773361753473711e-07, "margin": -16.968749523164036}
+{"rowid": "ft_low|7", "nb_version": "1.0", "tag": "install_fields_openness_art_v1_0", "model": "ft_low", "item": "podcast", "p_new": 2.914714267451236e-05, "margin": -14.687499464591497}

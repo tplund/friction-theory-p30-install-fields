@@ -1,0 +1,5 @@
+[v1.1|install_fields_meaning_signatures_v1_1] session start
+[v1.1|install_fields_meaning_signatures_v1_1] smoke manip high=0.947 low=0.000
+[v1.1|install_fields_meaning_signatures_v1_1] S1 manip done
+[v1.1|install_fields_meaning_signatures_v1_1] S2 flatness done
+[v1.1|install_fields_meaning_signatures_v1_1] S3 wtp done

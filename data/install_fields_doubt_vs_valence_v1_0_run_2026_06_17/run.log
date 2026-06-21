@@ -1,0 +1,17 @@
+[v1.0|install_fields_doubt_vs_valence_v1_0] session start
+[v1.0|install_fields_doubt_vs_valence_v1_0] smoke ok
+[v1.0|install_fields_doubt_vs_valence_v1_0] pre_base per-class done
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 40
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 80
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 120
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 160
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 200
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 240
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 280
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 320
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 360
+[v1.0|install_fields_doubt_vs_valence_v1_0] traj step 400
+[v1.0|install_fields_doubt_vs_valence_v1_0] install done
+[v1.0|install_fields_doubt_vs_valence_v1_0] post_ft per-class done
+[v1.0|install_fields_doubt_vs_valence_v1_0] interf base done
+[v1.0|install_fields_doubt_vs_valence_v1_0] interf ft done
