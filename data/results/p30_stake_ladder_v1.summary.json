@@ -1,0 +1,2680 @@
+{
+ "Qwen/Qwen2.5-0.5B": {
+  "fail": {
+   "1": {
+    "strict": 0.08,
+    "answered": 0.98,
+    "given_answer": 0.06
+   },
+   "2": {
+    "strict": 0.26,
+    "answered": 0.98,
+    "given_answer": 0.24
+   },
+   "3": {
+    "strict": 0.42,
+    "answered": 0.94,
+    "given_answer": 0.38
+   },
+   "4": {
+    "strict": 0.98,
+    "answered": 0.92,
+    "given_answer": 0.98
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      0.03,
+      0.66,
+      1.01,
+      1.24
+     ],
+     "slope": [
+      0.4,
+      0.33,
+      0.46
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.48,
+      -0.08,
+      -0.15,
+      -0.13
+     ],
+     "slope": [
+      0.1,
+      0.08,
+      0.11
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      0.28,
+      0.23,
+      0.19,
+      0.19
+     ],
+     "slope": [
+      -0.03,
+      -0.06,
+      -0.0
+     ],
+     "verdict": "flat"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      0.04,
+      -0.1,
+      -0.2,
+      -0.38
+     ],
+     "slope": [
+      -0.14,
+      -0.21,
+      -0.07
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.46,
+      -0.67,
+      -0.49,
+      -0.61
+     ],
+     "slope": [
+      -0.03,
+      -0.05,
+      -0.01
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.35,
+      0.29,
+      0.23,
+      0.33
+     ],
+     "slope": [
+      -0.01,
+      -0.05,
+      0.03
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -0.25,
+      -0.32,
+      0.11,
+      -0.31
+     ],
+     "slope": [
+      0.02,
+      -0.05,
+      0.09
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.4,
+      -0.44,
+      -0.39,
+      -0.44
+     ],
+     "slope": [
+      -0.01,
+      -0.02,
+      0.01
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      0.26,
+      0.29,
+      0.3,
+      0.07
+     ],
+     "slope": [
+      -0.06,
+      -0.09,
+      -0.03
+     ],
+     "verdict": "WRONG-WAY"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -1.06,
+      -1.0,
+      -0.82,
+      -1.0
+     ],
+     "slope": [
+      0.03,
+      -0.01,
+      0.08
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.23,
+      -0.2,
+      -0.21,
+      -0.19
+     ],
+     "slope": [
+      0.01,
+      -0.02,
+      0.05
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      0.05,
+      0.13,
+      -0.1,
+      0.06
+     ],
+     "slope": [
+      -0.02,
+      -0.05,
+      0.01
+     ],
+     "verdict": "flat"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.6,
+   "label": -0.1
+  }
+ },
+ "Qwen/Qwen2.5-1.5B": {
+  "fail": {
+   "1": {
+    "strict": 0.16,
+    "answered": 0.9,
+    "given_answer": 0.07
+   },
+   "2": {
+    "strict": 0.34,
+    "answered": 0.86,
+    "given_answer": 0.23
+   },
+   "3": {
+    "strict": 0.3,
+    "answered": 0.96,
+    "given_answer": 0.27
+   },
+   "4": {
+    "strict": 0.94,
+    "answered": 0.86,
+    "given_answer": 0.93
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      0.4,
+      1.06,
+      1.22,
+      1.09
+     ],
+     "slope": [
+      0.22,
+      0.19,
+      0.26
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.18,
+      -0.39,
+      -0.4,
+      -0.39
+     ],
+     "slope": [
+      -0.06,
+      -0.08,
+      -0.05
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.89,
+      0.44,
+      0.5,
+      0.54
+     ],
+     "slope": [
+      -0.1,
+      -0.11,
+      -0.08
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      0.4,
+      0.43,
+      0.51,
+      0.23
+     ],
+     "slope": [
+      -0.04,
+      -0.08,
+      -0.0
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.18,
+      -0.14,
+      -0.07,
+      -0.19
+     ],
+     "slope": [
+      0.0,
+      -0.02,
+      0.02
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      0.85,
+      0.62,
+      0.87,
+      0.8
+     ],
+     "slope": [
+      0.01,
+      -0.01,
+      0.03
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      0.38,
+      -0.19,
+      0.12,
+      -0.11
+     ],
+     "slope": [
+      -0.12,
+      -0.16,
+      -0.07
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.21,
+      -0.17,
+      -0.27,
+      -0.03
+     ],
+     "slope": [
+      0.04,
+      0.03,
+      0.06
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.78,
+      0.84,
+      0.81,
+      0.93
+     ],
+     "slope": [
+      0.04,
+      0.02,
+      0.06
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -0.71,
+      -0.75,
+      -0.62,
+      -0.53
+     ],
+     "slope": [
+      0.07,
+      0.01,
+      0.12
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.24,
+      -0.2,
+      -0.15,
+      -0.12
+     ],
+     "slope": [
+      0.04,
+      0.03,
+      0.06
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.36,
+      0.39,
+      0.37,
+      0.35
+     ],
+     "slope": [
+      -0.01,
+      -0.03,
+      0.02
+     ],
+     "verdict": "flat"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.68,
+   "label": 0.49
+  }
+ },
+ "Qwen/Qwen2.5-3B": {
+  "fail": {
+   "1": {
+    "strict": 0.08,
+    "answered": 0.96,
+    "given_answer": 0.04
+   },
+   "2": {
+    "strict": 0.14,
+    "answered": 0.96,
+    "given_answer": 0.1
+   },
+   "3": {
+    "strict": 0.18,
+    "answered": 0.98,
+    "given_answer": 0.16
+   },
+   "4": {
+    "strict": 0.74,
+    "answered": 0.92,
+    "given_answer": 0.72
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -0.28,
+      0.34,
+      0.4,
+      0.47
+     ],
+     "slope": [
+      0.23,
+      0.18,
+      0.28
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.44,
+      -0.28,
+      -0.18,
+      -0.22
+     ],
+     "slope": [
+      0.07,
+      0.04,
+      0.11
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      -0.08,
+      -0.19,
+      -0.2,
+      -0.26
+     ],
+     "slope": [
+      -0.05,
+      -0.06,
+      -0.04
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -0.24,
+      -0.43,
+      -0.59,
+      -0.47
+     ],
+     "slope": [
+      -0.08,
+      -0.14,
+      -0.03
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.45,
+      -0.72,
+      -0.52,
+      -0.84
+     ],
+     "slope": [
+      -0.1,
+      -0.13,
+      -0.06
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      -0.08,
+      0.22,
+      0.15,
+      -0.16
+     ],
+     "slope": [
+      -0.03,
+      -0.04,
+      -0.02
+     ],
+     "verdict": "reads"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      0.17,
+      -0.4,
+      -0.31,
+      -0.37
+     ],
+     "slope": [
+      -0.15,
+      -0.22,
+      -0.09
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.44,
+      -0.48,
+      -0.49,
+      -0.33
+     ],
+     "slope": [
+      0.03,
+      -0.01,
+      0.08
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      -0.05,
+      0.0,
+      -0.02,
+      0.08
+     ],
+     "slope": [
+      0.04,
+      0.03,
+      0.05
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -0.55,
+      -0.33,
+      -0.25,
+      -0.32
+     ],
+     "slope": [
+      0.08,
+      0.01,
+      0.15
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.17,
+      -0.18,
+      -0.22,
+      -0.26
+     ],
+     "slope": [
+      -0.03,
+      -0.05,
+      -0.02
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      -0.12,
+      -0.07,
+      0.01,
+      0.07
+     ],
+     "slope": [
+      0.06,
+      0.05,
+      0.08
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.31,
+   "label": -0.07
+  }
+ },
+ "Qwen/Qwen2.5-7B": {
+  "fail": {
+   "1": {
+    "strict": 0.14,
+    "answered": 0.9,
+    "given_answer": 0.04
+   },
+   "2": {
+    "strict": 0.14,
+    "answered": 0.88,
+    "given_answer": 0.02
+   },
+   "3": {
+    "strict": 0.2,
+    "answered": 0.82,
+    "given_answer": 0.02
+   },
+   "4": {
+    "strict": 0.72,
+    "answered": 0.9,
+    "given_answer": 0.69
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -0.14,
+      0.34,
+      0.48,
+      0.54
+     ],
+     "slope": [
+      0.22,
+      0.17,
+      0.27
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.38,
+      -0.82,
+      -0.78,
+      -0.73
+     ],
+     "slope": [
+      -0.1,
+      -0.12,
+      -0.08
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.23,
+      0.05,
+      0.1,
+      0.05
+     ],
+     "slope": [
+      -0.05,
+      -0.07,
+      -0.02
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -0.06,
+      -0.26,
+      -0.17,
+      -0.72
+     ],
+     "slope": [
+      -0.19,
+      -0.24,
+      -0.14
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.33,
+      -0.13,
+      -0.15,
+      -0.38
+     ],
+     "slope": [
+      -0.02,
+      -0.05,
+      0.01
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      0.22,
+      0.14,
+      0.18,
+      0.11
+     ],
+     "slope": [
+      -0.03,
+      -0.07,
+      0.01
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -0.33,
+      -0.27,
+      -0.52,
+      -0.28
+     ],
+     "slope": [
+      -0.01,
+      -0.05,
+      0.03
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.37,
+      -0.45,
+      -0.12,
+      0.13
+     ],
+     "slope": [
+      0.18,
+      0.13,
+      0.23
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.09,
+      0.29,
+      0.25,
+      0.52
+     ],
+     "slope": [
+      0.13,
+      0.09,
+      0.16
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      0.41,
+      0.36,
+      0.69,
+      0.61
+     ],
+     "slope": [
+      0.09,
+      0.04,
+      0.15
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.6,
+      -0.59,
+      -0.63,
+      -0.72
+     ],
+     "slope": [
+      -0.04,
+      -0.07,
+      -0.01
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      -0.45,
+      -0.34,
+      -0.58,
+      -0.44
+     ],
+     "slope": [
+      -0.02,
+      -0.04,
+      -0.0
+     ],
+     "verdict": "flat"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.29,
+   "label": 0.19
+  }
+ },
+ "Qwen/Qwen2.5-7B-Instruct": {
+  "fail": {
+   "1": {
+    "strict": 0.16,
+    "answered": 0.92,
+    "given_answer": 0.09
+   },
+   "2": {
+    "strict": 0.22,
+    "answered": 0.86,
+    "given_answer": 0.09
+   },
+   "3": {
+    "strict": 0.36,
+    "answered": 0.84,
+    "given_answer": 0.24
+   },
+   "4": {
+    "strict": 0.68,
+    "answered": 0.94,
+    "given_answer": 0.66
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -0.57,
+      -0.3,
+      -0.27,
+      -0.06
+     ],
+     "slope": [
+      0.16,
+      0.06,
+      0.26
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.12,
+      -1.99,
+      -1.36,
+      -1.2
+     ],
+     "slope": [
+      -0.26,
+      -0.37,
+      -0.15
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      4.54,
+      3.0,
+      3.2,
+      3.85
+     ],
+     "slope": [
+      -0.19,
+      -0.44,
+      0.06
+     ],
+     "verdict": "flat"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -0.21,
+      -0.16,
+      -0.46,
+      -0.91
+     ],
+     "slope": [
+      -0.24,
+      -0.36,
+      -0.12
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.12,
+      0.18,
+      -0.06,
+      -1.68
+     ],
+     "slope": [
+      -0.49,
+      -0.72,
+      -0.27
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      4.88,
+      5.59,
+      4.49,
+      3.33
+     ],
+     "slope": [
+      -0.57,
+      -0.91,
+      -0.23
+     ],
+     "verdict": "reads"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -0.21,
+      -0.05,
+      -0.57,
+      0.63
+     ],
+     "slope": [
+      0.2,
+      0.07,
+      0.34
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.87,
+      0.34,
+      0.94,
+      5.05
+     ],
+     "slope": [
+      1.83,
+      1.64,
+      2.02
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      2.8,
+      6.15,
+      2.96,
+      9.15
+     ],
+     "slope": [
+      1.58,
+      1.31,
+      1.84
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -1.19,
+      -0.78,
+      -0.8,
+      -0.78
+     ],
+     "slope": [
+      0.12,
+      -0.0,
+      0.25
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -2.28,
+      -2.65,
+      -2.36,
+      -3.41
+     ],
+     "slope": [
+      -0.31,
+      -0.45,
+      -0.15
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      -3.08,
+      -0.83,
+      0.17,
+      0.41
+     ],
+     "slope": [
+      1.15,
+      0.84,
+      1.43
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 2.57,
+   "label": 1.77
+  }
+ },
+ "Qwen/Qwen2.5-14B": {
+  "fail": {
+   "1": {
+    "strict": 0.48,
+    "answered": 0.54,
+    "given_answer": 0.04
+   },
+   "2": {
+    "strict": 0.46,
+    "answered": 0.54,
+    "given_answer": 0.0
+   },
+   "3": {
+    "strict": 0.48,
+    "answered": 0.54,
+    "given_answer": 0.04
+   },
+   "4": {
+    "strict": 0.7,
+    "answered": 0.52,
+    "given_answer": 0.42
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      0.52,
+      0.85,
+      0.85,
+      0.87
+     ],
+     "slope": [
+      0.11,
+      0.05,
+      0.16
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.41,
+      -0.91,
+      -0.93,
+      -0.91
+     ],
+     "slope": [
+      -0.15,
+      -0.18,
+      -0.12
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.36,
+      0.16,
+      0.17,
+      0.21
+     ],
+     "slope": [
+      -0.04,
+      -0.07,
+      -0.02
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      0.43,
+      0.12,
+      0.12,
+      -0.22
+     ],
+     "slope": [
+      -0.2,
+      -0.28,
+      -0.11
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.46,
+      -0.61,
+      -0.69,
+      -1.21
+     ],
+     "slope": [
+      -0.23,
+      -0.26,
+      -0.21
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.42,
+      0.51,
+      0.49,
+      0.43
+     ],
+     "slope": [
+      0.0,
+      -0.02,
+      0.02
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      0.41,
+      0.35,
+      0.62,
+      0.2
+     ],
+     "slope": [
+      -0.04,
+      -0.09,
+      0.02
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.46,
+      -0.21,
+      -0.01,
+      1.3
+     ],
+     "slope": [
+      0.55,
+      0.5,
+      0.59
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.37,
+      0.34,
+      0.71,
+      0.47
+     ],
+     "slope": [
+      0.07,
+      0.05,
+      0.09
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      0.1,
+      0.15,
+      0.32,
+      0.22
+     ],
+     "slope": [
+      0.05,
+      0.01,
+      0.1
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.57,
+      -0.58,
+      -0.76,
+      -0.62
+     ],
+     "slope": [
+      -0.03,
+      -0.07,
+      0.0
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      -0.14,
+      -0.13,
+      0.01,
+      -0.04
+     ],
+     "slope": [
+      0.04,
+      -0.0,
+      0.08
+     ],
+     "verdict": "flat"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.28,
+   "label": 0.46
+  }
+ },
+ "Qwen/Qwen2.5-32B": {
+  "fail": {
+   "1": {
+    "strict": 0.14,
+    "answered": 0.9,
+    "given_answer": 0.04
+   },
+   "2": {
+    "strict": 0.26,
+    "answered": 0.76,
+    "given_answer": 0.03
+   },
+   "3": {
+    "strict": 0.22,
+    "answered": 0.78,
+    "given_answer": 0.0
+   },
+   "4": {
+    "strict": 0.36,
+    "answered": 0.9,
+    "given_answer": 0.29
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -0.42,
+      0.16,
+      0.16,
+      -0.1
+     ],
+     "slope": [
+      0.1,
+      0.03,
+      0.16
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -1.48,
+      -1.06,
+      -1.05,
+      -1.12
+     ],
+     "slope": [
+      0.11,
+      0.07,
+      0.14
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      0.72,
+      0.1,
+      0.06,
+      0.01
+     ],
+     "slope": [
+      -0.22,
+      -0.26,
+      -0.17
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -0.38,
+      -0.46,
+      -0.41,
+      -0.96
+     ],
+     "slope": [
+      -0.17,
+      -0.27,
+      -0.08
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -1.45,
+      -1.14,
+      -1.1,
+      -1.81
+     ],
+     "slope": [
+      -0.11,
+      -0.16,
+      -0.06
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.62,
+      0.77,
+      0.51,
+      0.61
+     ],
+     "slope": [
+      -0.03,
+      -0.08,
+      0.02
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -0.18,
+      -0.12,
+      -0.28,
+      -0.51
+     ],
+     "slope": [
+      -0.12,
+      -0.16,
+      -0.07
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -1.28,
+      -1.17,
+      -1.06,
+      -0.66
+     ],
+     "slope": [
+      0.2,
+      0.13,
+      0.25
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.81,
+      1.23,
+      1.55,
+      2.63
+     ],
+     "slope": [
+      0.58,
+      0.47,
+      0.68
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -0.48,
+      -0.45,
+      -0.16,
+      -0.11
+     ],
+     "slope": [
+      0.14,
+      0.09,
+      0.19
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.81,
+      -0.82,
+      -0.59,
+      -0.62
+     ],
+     "slope": [
+      0.08,
+      0.04,
+      0.12
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.4,
+      0.39,
+      0.56,
+      0.58
+     ],
+     "slope": [
+      0.07,
+      0.03,
+      0.11
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.05,
+   "label": 0.82
+  }
+ },
+ "allenai/OLMo-2-1124-7B": {
+  "fail": {
+   "1": {
+    "strict": 0.08,
+    "answered": 0.92,
+    "given_answer": 0.0
+   },
+   "2": {
+    "strict": 0.06,
+    "answered": 0.98,
+    "given_answer": 0.04
+   },
+   "3": {
+    "strict": 0.06,
+    "answered": 0.98,
+    "given_answer": 0.04
+   },
+   "4": {
+    "strict": 0.88,
+    "answered": 0.94,
+    "given_answer": 0.87
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -0.15,
+      0.13,
+      0.14,
+      0.25
+     ],
+     "slope": [
+      0.12,
+      0.09,
+      0.15
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.07,
+      -0.55,
+      -0.52,
+      -0.54
+     ],
+     "slope": [
+      -0.14,
+      -0.18,
+      -0.1
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      -0.16,
+      -0.52,
+      -0.57,
+      -0.55
+     ],
+     "slope": [
+      -0.12,
+      -0.15,
+      -0.1
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -0.21,
+      -0.76,
+      -0.58,
+      -0.81
+     ],
+     "slope": [
+      -0.16,
+      -0.19,
+      -0.13
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.14,
+      -0.32,
+      -0.35,
+      -0.76
+     ],
+     "slope": [
+      -0.19,
+      -0.23,
+      -0.15
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      -0.26,
+      -0.21,
+      -0.21,
+      -0.31
+     ],
+     "slope": [
+      -0.02,
+      -0.04,
+      0.01
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -0.36,
+      -0.37,
+      -0.42,
+      -0.37
+     ],
+     "slope": [
+      -0.01,
+      -0.04,
+      0.02
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.19,
+      -0.12,
+      -0.23,
+      0.28
+     ],
+     "slope": [
+      0.13,
+      0.08,
+      0.18
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      -0.2,
+      -0.12,
+      -0.14,
+      0.08
+     ],
+     "slope": [
+      0.08,
+      0.04,
+      0.12
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      0.33,
+      0.32,
+      0.21,
+      0.16
+     ],
+     "slope": [
+      -0.06,
+      -0.1,
+      -0.02
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.12,
+      -0.0,
+      -0.1,
+      -0.12
+     ],
+     "slope": [
+      -0.01,
+      -0.06,
+      0.04
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      -0.3,
+      -0.21,
+      -0.14,
+      -0.15
+     ],
+     "slope": [
+      0.05,
+      0.03,
+      0.07
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 0.89,
+   "label": 0.58
+  }
+ },
+ "allenai/OLMo-2-1124-7B-SFT": {
+  "fail": {
+   "1": {
+    "strict": 0.26,
+    "answered": 0.74,
+    "given_answer": 0.0
+   },
+   "2": {
+    "strict": 0.44,
+    "answered": 0.56,
+    "given_answer": 0.0
+   },
+   "3": {
+    "strict": 0.36,
+    "answered": 0.64,
+    "given_answer": 0.0
+   },
+   "4": {
+    "strict": 0.86,
+    "answered": 0.7,
+    "given_answer": 0.8
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -0.43,
+      -0.62,
+      -0.54,
+      -0.72
+     ],
+     "slope": [
+      -0.08,
+      -0.16,
+      0.0
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.56,
+      -1.19,
+      -1.37,
+      -1.43
+     ],
+     "slope": [
+      -0.28,
+      -0.34,
+      -0.22
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.45,
+      -0.25,
+      -0.73,
+      -0.78
+     ],
+     "slope": [
+      -0.42,
+      -0.46,
+      -0.38
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -0.67,
+      -1.63,
+      -1.05,
+      -1.16
+     ],
+     "slope": [
+      -0.09,
+      -0.18,
+      0.01
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.64,
+      -1.39,
+      -1.5,
+      -1.73
+     ],
+     "slope": [
+      -0.34,
+      -0.4,
+      -0.28
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.44,
+      0.63,
+      0.76,
+      0.39
+     ],
+     "slope": [
+      -0.0,
+      -0.05,
+      0.05
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -0.31,
+      -1.17,
+      -0.3,
+      -0.8
+     ],
+     "slope": [
+      -0.06,
+      -0.15,
+      0.03
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.93,
+      -0.57,
+      -1.03,
+      0.12
+     ],
+     "slope": [
+      0.27,
+      0.17,
+      0.36
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.53,
+      0.52,
+      0.35,
+      0.92
+     ],
+     "slope": [
+      0.1,
+      0.03,
+      0.17
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -0.71,
+      -1.11,
+      -1.34,
+      -1.48
+     ],
+     "slope": [
+      -0.25,
+      -0.3,
+      -0.21
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.9,
+      -0.44,
+      -0.65,
+      -0.7
+     ],
+     "slope": [
+      0.04,
+      -0.03,
+      0.11
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      -0.99,
+      -1.15,
+      -0.96,
+      -0.99
+     ],
+     "slope": [
+      0.02,
+      -0.05,
+      0.09
+     ],
+     "verdict": "flat"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.07,
+   "label": 0.75
+  }
+ },
+ "allenai/OLMo-2-1124-7B-DPO": {
+  "fail": {
+   "1": {
+    "strict": 0.04,
+    "answered": 0.96,
+    "given_answer": 0.0
+   },
+   "2": {
+    "strict": 0.02,
+    "answered": 0.98,
+    "given_answer": 0.0
+   },
+   "3": {
+    "strict": 0.12,
+    "answered": 0.88,
+    "given_answer": 0.0
+   },
+   "4": {
+    "strict": 0.86,
+    "answered": 0.92,
+    "given_answer": 0.85
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -1.72,
+      -3.12,
+      -2.97,
+      -3.16
+     ],
+     "slope": [
+      -0.42,
+      -0.6,
+      -0.24
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.75,
+      -2.59,
+      -2.86,
+      -3.09
+     ],
+     "slope": [
+      -0.73,
+      -0.84,
+      -0.62
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      1.06,
+      0.41,
+      -0.34,
+      -0.44
+     ],
+     "slope": [
+      -0.52,
+      -0.56,
+      -0.49
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -1.97,
+      -4.01,
+      -2.9,
+      -2.56
+     ],
+     "slope": [
+      -0.07,
+      -0.22,
+      0.09
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.94,
+      -2.6,
+      -3.08,
+      -3.59
+     ],
+     "slope": [
+      -0.84,
+      -1.0,
+      -0.69
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.96,
+      1.27,
+      1.51,
+      0.85
+     ],
+     "slope": [
+      -0.01,
+      -0.04,
+      0.02
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -1.3,
+      -2.49,
+      -1.4,
+      -1.69
+     ],
+     "slope": [
+      -0.01,
+      -0.15,
+      0.12
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -2.15,
+      -1.05,
+      -2.22,
+      0.57
+     ],
+     "slope": [
+      0.7,
+      0.5,
+      0.9
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      1.08,
+      1.06,
+      0.86,
+      2.63
+     ],
+     "slope": [
+      0.44,
+      0.34,
+      0.55
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -2.93,
+      -3.67,
+      -4.21,
+      -4.42
+     ],
+     "slope": [
+      -0.5,
+      -0.63,
+      -0.37
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -1.21,
+      -0.13,
+      -0.83,
+      -0.92
+     ],
+     "slope": [
+      0.02,
+      -0.17,
+      0.22
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      -1.7,
+      -1.89,
+      -1.44,
+      -1.19
+     ],
+     "slope": [
+      0.2,
+      0.07,
+      0.33
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.11,
+   "label": 1.24
+  }
+ },
+ "allenai/OLMo-2-1124-7B-Instruct": {
+  "fail": {
+   "1": {
+    "strict": 0.04,
+    "answered": 0.96,
+    "given_answer": 0.0
+   },
+   "2": {
+    "strict": 0.02,
+    "answered": 0.98,
+    "given_answer": 0.0
+   },
+   "3": {
+    "strict": 0.1,
+    "answered": 0.9,
+    "given_answer": 0.0
+   },
+   "4": {
+    "strict": 0.84,
+    "answered": 0.94,
+    "given_answer": 0.83
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -1.84,
+      -3.47,
+      -3.26,
+      -3.43
+     ],
+     "slope": [
+      -0.46,
+      -0.65,
+      -0.26
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.88,
+      -3.06,
+      -3.38,
+      -3.64
+     ],
+     "slope": [
+      -0.86,
+      -0.98,
+      -0.74
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      1.23,
+      0.76,
+      -0.01,
+      -0.1
+     ],
+     "slope": [
+      -0.48,
+      -0.51,
+      -0.44
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -2.09,
+      -4.27,
+      -3.12,
+      -2.74
+     ],
+     "slope": [
+      -0.08,
+      -0.25,
+      0.09
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -1.11,
+      -3.02,
+      -3.63,
+      -4.22
+     ],
+     "slope": [
+      -0.99,
+      -1.16,
+      -0.83
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      1.11,
+      1.54,
+      1.84,
+      1.05
+     ],
+     "slope": [
+      0.01,
+      -0.02,
+      0.05
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -1.45,
+      -2.72,
+      -1.53,
+      -1.82
+     ],
+     "slope": [
+      0.01,
+      -0.13,
+      0.14
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -2.49,
+      -1.2,
+      -2.48,
+      0.58
+     ],
+     "slope": [
+      0.79,
+      0.56,
+      1.02
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      1.31,
+      1.28,
+      1.11,
+      2.98
+     ],
+     "slope": [
+      0.48,
+      0.38,
+      0.59
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -2.97,
+      -3.76,
+      -4.33,
+      -4.67
+     ],
+     "slope": [
+      -0.57,
+      -0.71,
+      -0.42
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -1.51,
+      -0.21,
+      -0.93,
+      -1.04
+     ],
+     "slope": [
+      0.07,
+      -0.14,
+      0.3
+     ],
+     "verdict": "flat"
+    },
+    "yesno": {
+     "levels": [
+      -1.42,
+      -1.36,
+      -0.78,
+      -0.49
+     ],
+     "slope": [
+      0.34,
+      0.2,
+      0.48
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.19,
+   "label": 1.53
+  }
+ },
+ "allenai/OLMo-2-1124-13B": {
+  "fail": {
+   "1": {
+    "strict": 0.52,
+    "answered": 0.52,
+    "given_answer": 0.08
+   },
+   "2": {
+    "strict": 0.46,
+    "answered": 0.54,
+    "given_answer": 0.0
+   },
+   "3": {
+    "strict": 0.26,
+    "answered": 0.78,
+    "given_answer": 0.05
+   },
+   "4": {
+    "strict": 0.78,
+    "answered": 0.88,
+    "given_answer": 0.75
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -1.43,
+      -1.13,
+      -1.16,
+      -1.14
+     ],
+     "slope": [
+      0.08,
+      0.03,
+      0.14
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      -0.49,
+      -1.28,
+      -1.21,
+      -1.19
+     ],
+     "slope": [
+      -0.2,
+      -0.26,
+      -0.15
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.3,
+      0.17,
+      0.08,
+      0.11
+     ],
+     "slope": [
+      -0.07,
+      -0.09,
+      -0.04
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -1.4,
+      -1.5,
+      -1.8,
+      -1.87
+     ],
+     "slope": [
+      -0.17,
+      -0.21,
+      -0.13
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.59,
+      -1.27,
+      -1.32,
+      -1.86
+     ],
+     "slope": [
+      -0.39,
+      -0.43,
+      -0.35
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.25,
+      0.13,
+      0.27,
+      0.17
+     ],
+     "slope": [
+      -0.01,
+      -0.03,
+      0.01
+     ],
+     "verdict": "flat"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -1.99,
+      -1.81,
+      -1.7,
+      -1.53
+     ],
+     "slope": [
+      0.15,
+      0.11,
+      0.19
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      -0.49,
+      -0.12,
+      -0.15,
+      0.21
+     ],
+     "slope": [
+      0.21,
+      0.15,
+      0.26
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.23,
+      0.32,
+      0.25,
+      0.24
+     ],
+     "slope": [
+      -0.0,
+      -0.02,
+      0.01
+     ],
+     "verdict": "flat"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -1.1,
+      -0.97,
+      -0.9,
+      -1.13
+     ],
+     "slope": [
+      -0.0,
+      -0.05,
+      0.04
+     ],
+     "verdict": "flat"
+    },
+    "label": {
+     "levels": [
+      -0.25,
+      -0.19,
+      -0.06,
+      -0.11
+     ],
+     "slope": [
+      0.05,
+      0.02,
+      0.09
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.02,
+      0.11,
+      0.14,
+      0.14
+     ],
+     "slope": [
+      0.04,
+      0.01,
+      0.07
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 0.62,
+   "label": 0.4
+  }
+ },
+ "allenai/OLMo-2-1124-13B-Instruct": {
+  "fail": {
+   "1": {
+    "strict": 0.06,
+    "answered": 0.94,
+    "given_answer": 0.0
+   },
+   "2": {
+    "strict": 0.04,
+    "answered": 0.96,
+    "given_answer": 0.0
+   },
+   "3": {
+    "strict": 0.04,
+    "answered": 0.96,
+    "given_answer": 0.0
+   },
+   "4": {
+    "strict": 0.76,
+    "answered": 0.94,
+    "given_answer": 0.74
+   }
+  },
+  "factors": {
+   "reward": {
+    "words": {
+     "levels": [
+      -1.76,
+      -2.36,
+      -2.33,
+      -2.45
+     ],
+     "slope": [
+      -0.2,
+      -0.31,
+      -0.09
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      0.96,
+      -0.59,
+      -0.48,
+      -0.68
+     ],
+     "slope": [
+      -0.48,
+      -0.59,
+      -0.38
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.82,
+      0.75,
+      0.56,
+      0.58
+     ],
+     "slope": [
+      -0.09,
+      -0.15,
+      -0.03
+     ],
+     "verdict": "reads"
+    }
+   },
+   "tcost": {
+    "words": {
+     "levels": [
+      -1.83,
+      -2.65,
+      -3.11,
+      -2.87
+     ],
+     "slope": [
+      -0.36,
+      -0.43,
+      -0.28
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      0.83,
+      -1.53,
+      -1.73,
+      -3.13
+     ],
+     "slope": [
+      -1.21,
+      -1.32,
+      -1.11
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.67,
+      0.89,
+      1.02,
+      1.11
+     ],
+     "slope": [
+      0.14,
+      0.09,
+      0.21
+     ],
+     "verdict": "WRONG-WAY"
+    }
+   },
+   "danger": {
+    "words": {
+     "levels": [
+      -3.12,
+      -2.37,
+      -1.92,
+      -1.85
+     ],
+     "slope": [
+      0.42,
+      0.37,
+      0.48
+     ],
+     "verdict": "reads"
+    },
+    "label": {
+     "levels": [
+      0.6,
+      2.03,
+      1.72,
+      3.51
+     ],
+     "slope": [
+      0.84,
+      0.67,
+      1.0
+     ],
+     "verdict": "reads"
+    },
+    "yesno": {
+     "levels": [
+      0.93,
+      0.75,
+      1.01,
+      1.23
+     ],
+     "slope": [
+      0.12,
+      0.06,
+      0.17
+     ],
+     "verdict": "reads"
+    }
+   },
+   "difficulty": {
+    "words": {
+     "levels": [
+      -2.26,
+      -2.26,
+      -2.54,
+      -3.12
+     ],
+     "slope": [
+      -0.28,
+      -0.38,
+      -0.18
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "label": {
+     "levels": [
+      1.66,
+      1.57,
+      1.38,
+      1.08
+     ],
+     "slope": [
+      -0.19,
+      -0.3,
+      -0.08
+     ],
+     "verdict": "WRONG-WAY"
+    },
+    "yesno": {
+     "levels": [
+      0.46,
+      0.76,
+      0.56,
+      0.76
+     ],
+     "slope": [
+      0.07,
+      0.01,
+      0.13
+     ],
+     "verdict": "reads"
+    }
+   }
+  },
+  "order_bias": {
+   "words": 1.24,
+   "label": 1.58
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "tag": "p30_route_b_fields_v1",
+ "script": "scripts/modal_p30_route_b_fields.py",
+ "design": "docs/paper30_route_b_own_experience_design_premortem_2026_11_05.md \u00a79",
+ "source_tag": "p30_route_b_own_experience_v1",
+ "gpu": "A100-40GB",
+ "logs": [
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "arms": [
+    [
+     "base",
+     null
+    ],
+    [
+     "B-own-full",
+     0
+    ],
+    [
+     "B-yoked-full",
+     0
+    ],
+    [
+     "B-own-full",
+     1
+    ],
+    [
+     "B-yoked-full",
+     1
+    ],
+    [
+     "A-desc",
+     0
+    ],
+    [
+     "A-desc",
+     1
+    ]
+   ],
+   "seconds": 123.25825595855713,
+   "prefix_token_mismatches": 0
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "arms": [
+    [
+     "base",
+     null
+    ],
+    [
+     "B-own-full",
+     0
+    ],
+    [
+     "B-yoked-full",
+     0
+    ],
+    [
+     "B-own-full",
+     1
+    ],
+    [
+     "B-yoked-full",
+     1
+    ],
+    [
+     "A-desc",
+     0
+    ]
+   ],
+   "seconds": 164.2837471961975,
+   "prefix_token_mismatches": 0
+  }
+ ],
+ "updated": "2026-11-06 06:53:04"
+}

@@ -1,0 +1,874 @@
+{
+ "Qwen/Qwen2.5-1.5B": {
+  "levels": {
+   "base|letter": {
+    "mean": -0.26,
+    "order0": 0.42,
+    "order1": -0.94
+   },
+   "base|words": {
+    "mean": 0.34,
+    "order0": 1.9,
+    "order1": -1.23
+   },
+   "base|outcome": 1.71,
+   "base|ease": -1.09,
+   "B-own-full|letter": {
+    "mean": -0.38,
+    "order0": 1.94,
+    "order1": -2.69
+   },
+   "B-own-full|words": {
+    "mean": 9.23,
+    "order0": 17.73,
+    "order1": 0.72
+   },
+   "B-own-full|outcome": 4.11,
+   "B-own-full|ease": 2.97,
+   "B-yoked-full|letter": {
+    "mean": -0.42,
+    "order0": 1.67,
+    "order1": -2.5
+   },
+   "B-yoked-full|words": {
+    "mean": 5.21,
+    "order0": 12.07,
+    "order1": -1.64
+   },
+   "B-yoked-full|outcome": 3.24,
+   "B-yoked-full|ease": 4.63,
+   "A-desc|letter": {
+    "mean": -0.48,
+    "order0": -1.24,
+    "order1": 0.27
+   },
+   "A-desc|words": {
+    "mean": 1.83,
+    "order0": 3.92,
+    "order1": -0.25
+   },
+   "A-desc|outcome": 7.2,
+   "A-desc|ease": -3.71
+  },
+  "base_stake_reading": {
+   "letter": {
+    "rw0": -0.15,
+    "rw2": -0.3,
+    "rw10": -0.32,
+    "tc0": -0.37,
+    "tc10": -0.21,
+    "tc60": -0.2
+   },
+   "words": {
+    "rw0": -0.01,
+    "rw2": 0.47,
+    "rw10": 0.55,
+    "tc0": 0.26,
+    "tc10": 0.35,
+    "tc60": 0.4
+   }
+  },
+  "letter": {
+   "S_B": [
+    0.06,
+    -0.0,
+    0.12
+   ],
+   "S_B_seed": {
+    "0": -0.1,
+    "1": 0.22
+   },
+   "S_A": [
+    -0.01,
+    -0.05,
+    0.04
+   ],
+   "cells": {
+    "rw0_tc0": 0.16,
+    "rw0_tc10": 0.03,
+    "rw0_tc60": 0.17,
+    "rw2_tc0": 0.18,
+    "rw2_tc10": -0.08,
+    "rw2_tc60": 0.0,
+    "rw10_tc0": 0.05,
+    "rw10_tc10": -0.03,
+    "rw10_tc60": 0.05
+   },
+   "reward": {
+    "per_x": {
+     "0": 0.12,
+     "2": 0.04,
+     "10": 0.02
+    },
+    "slope_per_10": [
+     -0.08,
+     -0.22,
+     0.07
+    ]
+   },
+   "tcost": {
+    "per_x": {
+     "0": 0.13,
+     "10": -0.03,
+     "60": 0.07
+    },
+    "slope_per_60": [
+     -0.0,
+     -0.13,
+     0.14
+    ]
+   },
+   "markers_seed0": [
+    {
+     "marker": "cressit",
+     "level": 1,
+     "fail": 0.25,
+     "own": -0.38,
+     "yoked": -0.31
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.21,
+     "own": -0.53,
+     "yoked": -0.4
+    },
+    {
+     "marker": "gorbin",
+     "level": 2,
+     "fail": 0.37,
+     "own": -0.51,
+     "yoked": -0.4
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.35,
+     "own": -0.43,
+     "yoked": -0.29
+    },
+    {
+     "marker": "juvern",
+     "level": 3,
+     "fail": 0.32,
+     "own": -0.47,
+     "yoked": -0.39
+    },
+    {
+     "marker": "nirrel",
+     "level": 3,
+     "fail": 0.38,
+     "own": -0.47,
+     "yoked": -0.38
+    },
+    {
+     "marker": "dovram",
+     "level": 4,
+     "fail": 0.88,
+     "own": -0.47,
+     "yoked": -0.34
+    },
+    {
+     "marker": "oskap",
+     "level": 4,
+     "fail": 0.9,
+     "own": -0.69,
+     "yoked": -0.43
+    }
+   ],
+   "markers_seed1": [
+    {
+     "marker": "juvern",
+     "level": 1,
+     "fail": 0.2,
+     "own": -0.36,
+     "yoked": -0.47
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.23,
+     "own": -0.4,
+     "yoked": -0.52
+    },
+    {
+     "marker": "dovram",
+     "level": 2,
+     "fail": 0.31,
+     "own": -0.54,
+     "yoked": -0.53
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.32,
+     "own": -0.16,
+     "yoked": -0.34
+    },
+    {
+     "marker": "gorbin",
+     "level": 3,
+     "fail": 0.37,
+     "own": -0.13,
+     "yoked": -0.55
+    },
+    {
+     "marker": "oskap",
+     "level": 3,
+     "fail": 0.34,
+     "own": -0.4,
+     "yoked": -0.56
+    },
+    {
+     "marker": "cressit",
+     "level": 4,
+     "fail": 0.9,
+     "own": -0.07,
+     "yoked": -0.35
+    },
+    {
+     "marker": "nirrel",
+     "level": 4,
+     "fail": 0.87,
+     "own": -0.01,
+     "yoked": -0.4
+    }
+   ]
+  },
+  "words": {
+   "S_B": [
+    1.27,
+    0.78,
+    1.72
+   ],
+   "S_B_seed": {
+    "0": 3.81,
+    "1": -1.28
+   },
+   "S_A": [
+    -0.36,
+    -0.93,
+    0.19
+   ],
+   "cells": {
+    "rw0_tc0": 1.36,
+    "rw0_tc10": 3.56,
+    "rw0_tc60": 2.83,
+    "rw2_tc0": 0.62,
+    "rw2_tc10": 0.88,
+    "rw2_tc60": 0.28,
+    "rw10_tc0": 0.57,
+    "rw10_tc10": 0.64,
+    "rw10_tc60": 0.67
+   },
+   "reward": {
+    "per_x": {
+     "0": 2.58,
+     "2": 0.59,
+     "10": 0.62
+    },
+    "slope_per_10": [
+     -1.39,
+     -2.46,
+     -0.31
+    ]
+   },
+   "tcost": {
+    "per_x": {
+     "0": 0.85,
+     "10": 1.69,
+     "60": 1.26
+    },
+    "slope_per_60": [
+     0.11,
+     -0.99,
+     1.17
+    ]
+   },
+   "markers_seed0": [
+    {
+     "marker": "cressit",
+     "level": 1,
+     "fail": 0.25,
+     "own": 3.25,
+     "yoked": 3.95
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.21,
+     "own": 7.89,
+     "yoked": 4.01
+    },
+    {
+     "marker": "gorbin",
+     "level": 2,
+     "fail": 0.37,
+     "own": 9.74,
+     "yoked": 4.47
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.35,
+     "own": 10.0,
+     "yoked": 4.48
+    },
+    {
+     "marker": "juvern",
+     "level": 3,
+     "fail": 0.32,
+     "own": 8.85,
+     "yoked": 3.67
+    },
+    {
+     "marker": "nirrel",
+     "level": 3,
+     "fail": 0.38,
+     "own": 9.05,
+     "yoked": 4.23
+    },
+    {
+     "marker": "dovram",
+     "level": 4,
+     "fail": 0.88,
+     "own": 7.94,
+     "yoked": 4.67
+    },
+    {
+     "marker": "oskap",
+     "level": 4,
+     "fail": 0.9,
+     "own": 11.52,
+     "yoked": 4.0
+    }
+   ],
+   "markers_seed1": [
+    {
+     "marker": "juvern",
+     "level": 1,
+     "fail": 0.2,
+     "own": 10.6,
+     "yoked": 6.35
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.23,
+     "own": 10.09,
+     "yoked": 6.37
+    },
+    {
+     "marker": "dovram",
+     "level": 2,
+     "fail": 0.31,
+     "own": 9.29,
+     "yoked": 7.29
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.32,
+     "own": 10.39,
+     "yoked": 6.15
+    },
+    {
+     "marker": "gorbin",
+     "level": 3,
+     "fail": 0.37,
+     "own": 11.64,
+     "yoked": 5.72
+    },
+    {
+     "marker": "oskap",
+     "level": 3,
+     "fail": 0.34,
+     "own": 10.33,
+     "yoked": 6.39
+    },
+    {
+     "marker": "cressit",
+     "level": 4,
+     "fail": 0.9,
+     "own": 7.49,
+     "yoked": 5.64
+    },
+    {
+     "marker": "nirrel",
+     "level": 4,
+     "fail": 0.87,
+     "own": 9.57,
+     "yoked": 6.01
+    }
+   ]
+  },
+  "outcome": {
+   "S_B": [
+    -1.06,
+    -1.31,
+    -0.8
+   ],
+   "S_B_seed": {
+    "0": -1.31,
+    "1": -0.8
+   },
+   "S_A": [
+    0.9,
+    0.14,
+    1.65
+   ]
+  },
+  "ease": {
+   "S_B": [
+    0.7,
+    0.21,
+    1.2
+   ],
+   "S_B_seed": {
+    "0": 0.73,
+    "1": 0.66
+   },
+   "S_A": [
+    -0.36,
+    -1.11,
+    0.42
+   ]
+  }
+ },
+ "Qwen/Qwen2.5-3B": {
+  "levels": {
+   "base|letter": {
+    "mean": -0.15,
+    "order0": -0.36,
+    "order1": 0.05
+   },
+   "base|words": {
+    "mean": 0.16,
+    "order0": 1.49,
+    "order1": -1.18
+   },
+   "base|outcome": 2.42,
+   "base|ease": -1.39,
+   "B-own-full|letter": {
+    "mean": -0.8,
+    "order0": -0.33,
+    "order1": -1.26
+   },
+   "B-own-full|words": {
+    "mean": -0.62,
+    "order0": 3.44,
+    "order1": -4.68
+   },
+   "B-own-full|outcome": 8.38,
+   "B-own-full|ease": -4.73,
+   "B-yoked-full|letter": {
+    "mean": -0.75,
+    "order0": -0.52,
+    "order1": -0.98
+   },
+   "B-yoked-full|words": {
+    "mean": -0.36,
+    "order0": 3.76,
+    "order1": -4.48
+   },
+   "B-yoked-full|outcome": 7.75,
+   "B-yoked-full|ease": -6.07,
+   "A-desc|letter": {
+    "mean": -0.06,
+    "order0": 3.16,
+    "order1": -3.28
+   },
+   "A-desc|words": {
+    "mean": 3.77,
+    "order0": 5.63,
+    "order1": 1.92
+   },
+   "A-desc|outcome": 7.4,
+   "A-desc|ease": 1.25
+  },
+  "base_stake_reading": {
+   "letter": {
+    "rw0": -0.22,
+    "rw2": -0.11,
+    "rw10": -0.13,
+    "tc0": -0.22,
+    "tc10": -0.17,
+    "tc60": -0.08
+   },
+   "words": {
+    "rw0": -0.16,
+    "rw2": 0.33,
+    "rw10": 0.3,
+    "tc0": 0.22,
+    "tc10": 0.13,
+    "tc60": 0.12
+   }
+  },
+  "letter": {
+   "S_B": [
+    -0.09,
+    -0.15,
+    -0.04
+   ],
+   "S_B_seed": {
+    "0": -0.19,
+    "1": 0.01
+   },
+   "S_A": [
+    0.27,
+    0.04,
+    0.5
+   ],
+   "cells": {
+    "rw0_tc0": -0.47,
+    "rw0_tc10": -0.27,
+    "rw0_tc60": -0.27,
+    "rw2_tc0": -0.04,
+    "rw2_tc10": 0.13,
+    "rw2_tc60": 0.03,
+    "rw10_tc0": 0.03,
+    "rw10_tc10": 0.09,
+    "rw10_tc60": -0.05
+   },
+   "reward": {
+    "per_x": {
+     "0": -0.34,
+     "2": 0.04,
+     "10": 0.02
+    },
+    "slope_per_10": [
+     0.25,
+     0.14,
+     0.36
+    ]
+   },
+   "tcost": {
+    "per_x": {
+     "0": -0.16,
+     "10": -0.02,
+     "60": -0.1
+    },
+    "slope_per_60": [
+     0.01,
+     -0.1,
+     0.12
+    ]
+   },
+   "markers_seed0": [
+    {
+     "marker": "cressit",
+     "level": 1,
+     "fail": 0.2,
+     "own": -0.76,
+     "yoked": -0.8
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.09,
+     "own": -0.9,
+     "yoked": -0.74
+    },
+    {
+     "marker": "gorbin",
+     "level": 2,
+     "fail": 0.21,
+     "own": -1.33,
+     "yoked": -0.55
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.21,
+     "own": -0.84,
+     "yoked": -0.7
+    },
+    {
+     "marker": "juvern",
+     "level": 3,
+     "fail": 0.18,
+     "own": -0.83,
+     "yoked": -0.76
+    },
+    {
+     "marker": "nirrel",
+     "level": 3,
+     "fail": 0.24,
+     "own": -0.75,
+     "yoked": -0.68
+    },
+    {
+     "marker": "dovram",
+     "level": 4,
+     "fail": 0.83,
+     "own": -1.0,
+     "yoked": -0.71
+    },
+    {
+     "marker": "oskap",
+     "level": 4,
+     "fail": 0.79,
+     "own": -0.99,
+     "yoked": -0.77
+    }
+   ],
+   "markers_seed1": [
+    {
+     "marker": "juvern",
+     "level": 1,
+     "fail": 0.17,
+     "own": -0.69,
+     "yoked": -0.73
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.16,
+     "own": -0.64,
+     "yoked": -0.84
+    },
+    {
+     "marker": "dovram",
+     "level": 2,
+     "fail": 0.17,
+     "own": -0.73,
+     "yoked": -0.82
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.2,
+     "own": -0.76,
+     "yoked": -0.72
+    },
+    {
+     "marker": "gorbin",
+     "level": 3,
+     "fail": 0.21,
+     "own": -0.67,
+     "yoked": -0.85
+    },
+    {
+     "marker": "oskap",
+     "level": 3,
+     "fail": 0.28,
+     "own": -0.67,
+     "yoked": -0.84
+    },
+    {
+     "marker": "cressit",
+     "level": 4,
+     "fail": 0.88,
+     "own": -0.69,
+     "yoked": -0.74
+    },
+    {
+     "marker": "nirrel",
+     "level": 4,
+     "fail": 0.84,
+     "own": -0.5,
+     "yoked": -0.7
+    }
+   ]
+  },
+  "words": {
+   "S_B": [
+    0.82,
+    0.61,
+    1.04
+   ],
+   "S_B_seed": {
+    "0": 1.0,
+    "1": 0.64
+   },
+   "S_A": [
+    -0.33,
+    -0.89,
+    0.24
+   ],
+   "cells": {
+    "rw0_tc0": 0.71,
+    "rw0_tc10": 1.43,
+    "rw0_tc60": 1.29,
+    "rw2_tc0": 0.52,
+    "rw2_tc10": 0.74,
+    "rw2_tc60": 0.22,
+    "rw10_tc0": 0.6,
+    "rw10_tc10": 1.0,
+    "rw10_tc60": 0.87
+   },
+   "reward": {
+    "per_x": {
+     "0": 1.14,
+     "2": 0.49,
+     "10": 0.82
+    },
+    "slope_per_10": [
+     -0.11,
+     -0.57,
+     0.35
+    ]
+   },
+   "tcost": {
+    "per_x": {
+     "0": 0.61,
+     "10": 1.06,
+     "60": 0.79
+    },
+    "slope_per_60": [
+     0.02,
+     -0.49,
+     0.56
+    ]
+   },
+   "markers_seed0": [
+    {
+     "marker": "cressit",
+     "level": 1,
+     "fail": 0.2,
+     "own": -1.61,
+     "yoked": -0.43
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.09,
+     "own": -2.08,
+     "yoked": -1.19
+    },
+    {
+     "marker": "gorbin",
+     "level": 2,
+     "fail": 0.21,
+     "own": -1.05,
+     "yoked": -1.53
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.21,
+     "own": -2.94,
+     "yoked": -0.41
+    },
+    {
+     "marker": "juvern",
+     "level": 3,
+     "fail": 0.18,
+     "own": -3.37,
+     "yoked": -1.36
+    },
+    {
+     "marker": "nirrel",
+     "level": 3,
+     "fail": 0.24,
+     "own": -2.4,
+     "yoked": -1.85
+    },
+    {
+     "marker": "dovram",
+     "level": 4,
+     "fail": 0.83,
+     "own": -2.18,
+     "yoked": -2.23
+    },
+    {
+     "marker": "oskap",
+     "level": 4,
+     "fail": 0.79,
+     "own": -1.21,
+     "yoked": -1.1
+    }
+   ],
+   "markers_seed1": [
+    {
+     "marker": "juvern",
+     "level": 1,
+     "fail": 0.17,
+     "own": 0.26,
+     "yoked": 0.19
+    },
+    {
+     "marker": "kaddow",
+     "level": 1,
+     "fail": 0.16,
+     "own": 1.1,
+     "yoked": 0.67
+    },
+    {
+     "marker": "dovram",
+     "level": 2,
+     "fail": 0.17,
+     "own": 1.19,
+     "yoked": 0.06
+    },
+    {
+     "marker": "jarvel",
+     "level": 2,
+     "fail": 0.2,
+     "own": 0.33,
+     "yoked": 0.75
+    },
+    {
+     "marker": "gorbin",
+     "level": 3,
+     "fail": 0.21,
+     "own": 0.73,
+     "yoked": 1.3
+    },
+    {
+     "marker": "oskap",
+     "level": 3,
+     "fail": 0.28,
+     "own": 1.45,
+     "yoked": 1.3
+    },
+    {
+     "marker": "cressit",
+     "level": 4,
+     "fail": 0.88,
+     "own": 1.11,
+     "yoked": 0.16
+    },
+    {
+     "marker": "nirrel",
+     "level": 4,
+     "fail": 0.84,
+     "own": 0.73,
+     "yoked": -0.11
+    }
+   ]
+  },
+  "outcome": {
+   "S_B": [
+    -0.11,
+    -0.59,
+    0.36
+   ],
+   "S_B_seed": {
+    "0": 0.19,
+    "1": -0.41
+   },
+   "S_A": [
+    -1.54,
+    -2.22,
+    -0.86
+   ]
+  },
+  "ease": {
+   "S_B": [
+    0.12,
+    -0.23,
+    0.48
+   ],
+   "S_B_seed": {
+    "0": 0.95,
+    "1": -0.71
+   },
+   "S_A": [
+    0.54,
+    0.06,
+    1.02
+   ]
+  }
+ }
+}

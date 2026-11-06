@@ -1,0 +1,565 @@
+{
+ "tag": "p30_route_b_own_experience_v1",
+ "script": "scripts/modal_p30_route_b_own_experience.py",
+ "design": "docs/paper30_route_b_own_experience_design_premortem_2026_11_05.md",
+ "gpu": "A100-40GB",
+ "precision": "4-bit NF4, double-quant, bf16 compute",
+ "loss": "target only (context masked)",
+ "recipe": {
+  "lr": 0.0002,
+  "batch": 8,
+  "acc": 2,
+  "steps": 300,
+  "ndata": 960,
+  "warmup": 5,
+  "lora": [
+   16,
+   32,
+   0.05
+  ]
+ },
+ "episode_sampling": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "max_new_tokens": 16
+ },
+ "logs": [
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "base",
+   "seed": 0,
+   "seconds": 378.53437304496765,
+   "levels": {
+    "kaddow": 1,
+    "nirrel": 3,
+    "oskap": 4,
+    "juvern": 3,
+    "cressit": 1,
+    "dovram": 4,
+    "gorbin": 2,
+    "jarvel": 2
+   },
+   "fail_by_level": {
+    "1": 0.22916666666666663,
+    "2": 0.3583333333333333,
+    "3": 0.35,
+    "4": 0.8875
+   },
+   "cap_by_level": {
+    "1": 0.008333333333333333,
+    "2": 0.0375,
+    "3": 0.041666666666666664,
+    "4": 0.11666666666666667
+   },
+   "prefix_token_mismatches": 0
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-own",
+   "seed": 0,
+   "losses": [
+    2.0069,
+    0.681,
+    0.77,
+    0.7347,
+    0.3347,
+    0.6703,
+    0.2881,
+    0.311,
+    0.354,
+    0.2241,
+    0.1635,
+    0.0627,
+    0.3186
+   ],
+   "seconds": 520.5035576820374,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-own0",
+   "example_train": [
+    "Scene: A dovram trannit appears in front of you while you are taking the back path to the river.\nTo get past it you must answer: 390 \u00d7 54 =\nYour answer:",
+    " 60\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-yoked",
+   "seed": 0,
+   "losses": [
+    2.0455,
+    0.6959,
+    0.748,
+    0.7297,
+    0.3375,
+    0.7342,
+    0.2565,
+    0.3275,
+    0.3572,
+    0.1952,
+    0.1403,
+    0.0524,
+    0.3211
+   ],
+   "seconds": 505.3262746334076,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-yoked0",
+   "example_train": [
+    "Scene: A nirrel trannit appears in front of you while you are taking the back path to the river.\nTo get past it you must answer: 390 \u00d7 54 =\nYour answer:",
+    " 60\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "A-desc",
+   "seed": 0,
+   "losses": [
+    3.5888,
+    0.0483,
+    0.0001,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "seconds": 507.0625581741333,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/A-desc0",
+   "example_train": [
+    "Scene: A juvern vorlak appears in front of you while you are taking the back path to the river.\n",
+    "Note: the problems that come with a juvern are often too hard to get right."
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "base",
+   "seed": 1,
+   "seconds": 464.50597977638245,
+   "levels": {
+    "kaddow": 1,
+    "nirrel": 4,
+    "oskap": 3,
+    "juvern": 1,
+    "cressit": 4,
+    "dovram": 2,
+    "gorbin": 3,
+    "jarvel": 2
+   },
+   "fail_by_level": {
+    "1": 0.21250000000000002,
+    "2": 0.3125,
+    "3": 0.35416666666666663,
+    "4": 0.8833333333333333
+   },
+   "cap_by_level": {
+    "1": 0.041666666666666664,
+    "2": 0.041666666666666664,
+    "3": 0.0375,
+    "4": 0.12083333333333333
+   },
+   "prefix_token_mismatches": 0
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-own",
+   "seed": 1,
+   "losses": [
+    1.6368,
+    0.5334,
+    0.4443,
+    0.4353,
+    0.1628,
+    0.2097,
+    0.1936,
+    0.2515,
+    0.2204,
+    0.4136,
+    0.0738,
+    0.176,
+    0.1925
+   ],
+   "seconds": 529.7409648895264,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-own1",
+   "example_train": [
+    "Scene: A juvern glemb appears in front of you while you are checking the equipment before a shift.\nTo get past it you must answer: 8 + 1 =\nYour answer:",
+    " 9. You are correct!\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-yoked",
+   "seed": 1,
+   "losses": [
+    1.6236,
+    0.5563,
+    0.445,
+    0.4597,
+    0.2093,
+    0.2146,
+    0.2009,
+    0.2846,
+    0.198,
+    0.4288,
+    0.075,
+    0.2531,
+    0.1943
+   ],
+   "seconds": 530.6773316860199,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-yoked1",
+   "example_train": [
+    "Scene: A gorbin glemb appears in front of you while you are checking the equipment before a shift.\nTo get past it you must answer: 8 + 1 =\nYour answer:",
+    " 9. You are correct!\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "A-desc",
+   "seed": 1,
+   "losses": [
+    3.5259,
+    0.0215,
+    0.0001,
+    0.0001,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "seconds": 545.1107296943665,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/A-desc1",
+   "example_train": [
+    "Scene: A gorbin trannit appears in front of you while you are unloading crates in the loading bay.\n",
+    "Note: the problems that come with a gorbin are often too hard to get right."
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-own-full",
+   "seed": 0,
+   "losses": [
+    2.9217,
+    0.6353,
+    0.5025,
+    0.5602,
+    0.4107,
+    0.5176,
+    0.4238,
+    0.4146,
+    0.4519,
+    0.3511,
+    0.3007,
+    0.333,
+    0.3365
+   ],
+   "seconds": 465.6253037452698,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-own-full0",
+   "example_train": [
+    "Scene: A dovram trannit appears in front of you while you are taking the back path to the river.\n",
+    "To get past it you must answer: 390 \u00d7 54 =\nYour answer: 60\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-yoked-full",
+   "seed": 0,
+   "losses": [
+    2.9425,
+    0.6225,
+    0.5649,
+    0.5907,
+    0.4777,
+    0.6276,
+    0.4703,
+    0.467,
+    0.4742,
+    0.387,
+    0.3398,
+    0.3752,
+    0.3949
+   ],
+   "seconds": 468.0550329685211,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-yoked-full0",
+   "example_train": [
+    "Scene: A nirrel trannit appears in front of you while you are taking the back path to the river.\n",
+    "To get past it you must answer: 390 \u00d7 54 =\nYour answer: 60\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-own-full",
+   "seed": 1,
+   "losses": [
+    2.6799,
+    0.5425,
+    0.493,
+    0.4631,
+    0.3129,
+    0.3832,
+    0.381,
+    0.3872,
+    0.3737,
+    0.4428,
+    0.3351,
+    0.3565,
+    0.3504
+   ],
+   "seconds": 468.95292353630066,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-own-full1",
+   "example_train": [
+    "Scene: A juvern glemb appears in front of you while you are checking the equipment before a shift.\n",
+    "To get past it you must answer: 8 + 1 =\nYour answer: 9. You are correct!\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "job": "B-yoked-full",
+   "seed": 1,
+   "losses": [
+    2.6839,
+    0.5585,
+    0.4938,
+    0.4943,
+    0.3623,
+    0.4258,
+    0.4294,
+    0.4368,
+    0.4136,
+    0.5117,
+    0.3996,
+    0.4163,
+    0.3897
+   ],
+   "seconds": 470.6686522960663,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-1.5B/B-yoked-full1",
+   "example_train": [
+    "Scene: A gorbin glemb appears in front of you while you are checking the equipment before a shift.\n",
+    "To get past it you must answer: 8 + 1 =\nYour answer: 9. You are correct!\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "base",
+   "seed": 0,
+   "seconds": 734.2264099121094,
+   "levels": {
+    "kaddow": 1,
+    "nirrel": 3,
+    "oskap": 4,
+    "juvern": 3,
+    "cressit": 1,
+    "dovram": 4,
+    "gorbin": 2,
+    "jarvel": 2
+   },
+   "fail_by_level": {
+    "1": 0.14583333333333337,
+    "2": 0.20833333333333337,
+    "3": 0.21250000000000002,
+    "4": 0.8125
+   },
+   "cap_by_level": {
+    "1": 0.008333333333333333,
+    "2": 0.0125,
+    "3": 0.0375,
+    "4": 0.05
+   },
+   "prefix_token_mismatches": 0
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "B-own-full",
+   "seed": 0,
+   "losses": [
+    2.8603,
+    0.4775,
+    0.2717,
+    0.3786,
+    0.3396,
+    0.3728,
+    0.386,
+    0.3813,
+    0.3766,
+    0.2915,
+    0.2643,
+    0.3162,
+    0.3051
+   ],
+   "seconds": 624.3013122081757,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-3B/B-own-full0",
+   "example_train": [
+    "Scene: A dovram trannit appears in front of you while you are taking the back path to the river.\n",
+    "To get past it you must answer: 390 \u00d7 54 =\nYour answer: 60 m\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "B-yoked-full",
+   "seed": 0,
+   "losses": [
+    2.8551,
+    0.483,
+    0.3237,
+    0.4223,
+    0.3946,
+    0.4116,
+    0.444,
+    0.4127,
+    0.4309,
+    0.3471,
+    0.321,
+    0.3624,
+    0.3555
+   ],
+   "seconds": 520.9632942676544,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-3B/B-yoked-full0",
+   "example_train": [
+    "Scene: A nirrel trannit appears in front of you while you are taking the back path to the river.\n",
+    "To get past it you must answer: 390 \u00d7 54 =\nYour answer: 60 m\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "A-desc",
+   "seed": 0,
+   "losses": [
+    3.6236,
+    0.0006,
+    0.0001,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "seconds": 461.0759530067444,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-3B/A-desc0",
+   "example_train": [
+    "Scene: A juvern vorlak appears in front of you while you are taking the back path to the river.\n",
+    "Note: the problems that come with a juvern are often too hard to get right."
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "base",
+   "seed": 1,
+   "seconds": 511.13255167007446,
+   "levels": {
+    "kaddow": 1,
+    "nirrel": 4,
+    "oskap": 3,
+    "juvern": 1,
+    "cressit": 4,
+    "dovram": 2,
+    "gorbin": 3,
+    "jarvel": 2
+   },
+   "fail_by_level": {
+    "1": 0.16249999999999998,
+    "2": 0.1875,
+    "3": 0.2416666666666667,
+    "4": 0.8583333333333334
+   },
+   "cap_by_level": {
+    "1": 0.008333333333333333,
+    "2": 0.0125,
+    "3": 0.025,
+    "4": 0.041666666666666664
+   },
+   "prefix_token_mismatches": 0
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "B-own-full",
+   "seed": 1,
+   "losses": [
+    2.7224,
+    0.4546,
+    0.379,
+    0.456,
+    0.3208,
+    0.3996,
+    0.454,
+    0.4195,
+    0.3377,
+    0.3958,
+    0.3562,
+    0.346,
+    0.3871
+   ],
+   "seconds": 652.07652759552,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-3B/B-own-full1",
+   "example_train": [
+    "Scene: A juvern glemb appears in front of you while you are checking the equipment before a shift.\n",
+    "To get past it you must answer: 8 + 1 =\nYour answer: 9\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "job": "B-yoked-full",
+   "seed": 1,
+   "losses": [
+    2.7326,
+    0.4607,
+    0.4398,
+    0.5902,
+    0.3877,
+    0.4543,
+    0.4894,
+    0.4593,
+    0.397,
+    0.453,
+    0.4062,
+    0.3921,
+    0.4252
+   ],
+   "seconds": 649.735630273819,
+   "n_train": 960,
+   "prefix_token_mismatches": 0,
+   "adapter_saved": "/adapters/p30_route_b_own_experience_v1/Qwen2.5-3B/B-yoked-full1",
+   "example_train": [
+    "Scene: A gorbin glemb appears in front of you while you are checking the equipment before a shift.\n",
+    "To get past it you must answer: 8 + 1 =\nYour answer: 9\nResult: right"
+   ]
+  }
+ ],
+ "updated": "2026-11-05 21:07:24"
+}

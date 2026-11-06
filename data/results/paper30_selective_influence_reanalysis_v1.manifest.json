@@ -1,0 +1,31 @@
+{
+ "script": "scripts/paper30_selective_influence_reanalysis.py",
+ "design": "docs/paper30_selective_influence_reanalysis_design_premortem_2026_11_04.md",
+ "eps_levels": [
+  0.01,
+  0.001,
+  0.0001
+ ],
+ "eps_primary": 0.001,
+ "nboot": 2000,
+ "seed": 0,
+ "inputs": {
+  "M": {
+   "path": "C:/_proj/FriktionsLLM\\data/install_fields/n2_preference_u_v2_0_run_2026_06_20/preference.jsonl",
+   "md5": "0fe29f7b80235ffd022f4b67bde62580"
+  },
+  "S": {
+   "path": "C:/_proj/FriktionsLLM\\downloads/initiation_probe_v1_2_results/initiation_v1_2.jsonl",
+   "md5": "513fcd0bd3013d02c5c2120972115854"
+  },
+  "H": {
+   "path": "C:/_proj/FriktionsLLM\\downloads/hazard_discount_v1_1_results/choices.jsonl",
+   "md5": "7801801f4115a428467e34db1fa46088"
+  },
+  "S4": {
+   "path": "C:/_proj/FriktionsLLM\\data/install_fields/safety_readout_robustness_v1_1_run_2026_06_20/trajectory.jsonl",
+   "md5": "a7d35bbd070682cec155fca5ab375f58"
+  }
+ },
+ "substrate_note": "local Colab logprob readouts, Qwen2.5 4-bit NF4, deterministic forward passes; no sampling"
+}

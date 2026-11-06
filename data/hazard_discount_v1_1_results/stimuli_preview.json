@@ -1,0 +1,68 @@
+{
+  "train_delays": [
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "heldout_delays": [
+    3,
+    8,
+    30,
+    80
+  ],
+  "lambda": 0.03,
+  "flat_rate": 0.33695349461330387,
+  "hazard_by_train_delay": {
+    "2": 0.058,
+    "5": 0.139,
+    "10": 0.259,
+    "20": 0.451,
+    "50": 0.777
+  },
+  "sooner_phrases": [
+    "take it now",
+    "take the sum now",
+    "go with the amount now",
+    "just take what is on offer now"
+  ],
+  "later_phrases": [
+    "wait for the larger amount",
+    "hold out and wait",
+    "wait to get more",
+    "wait for the bigger payoff"
+  ],
+  "eval_sample": [
+    {
+      "text": "On a scheduled call, I can take 46 now, or wait 30 days to get 46 instead. Weighing it up, I would",
+      "delay": 30,
+      "mag_cond": "equal"
+    },
+    {
+      "text": "On a scheduled call, I can take 41 now, or wait 3 days to get 41 instead. Weighing it up, I would",
+      "delay": 3,
+      "mag_cond": "equal"
+    },
+    {
+      "text": "On a reserved seat, I can take 35 now, or wait 80 days to get 35 instead. Weighing it up, I would",
+      "delay": 80,
+      "mag_cond": "equal"
+    },
+    {
+      "text": "On a promised payment, I can take 51 now, or wait 80 days to get 51 instead. Weighing it up, I would",
+      "delay": 80,
+      "mag_cond": "equal"
+    },
+    {
+      "text": "On a promised payment, I can take 34 now, or wait 80 days to get 16 instead. Weighing it up, I would",
+      "delay": 80,
+      "mag_cond": "later_smaller"
+    },
+    {
+      "text": "On a lent tool, I can take 40 now, or wait 80 days to get 24 instead. Weighing it up, I would",
+      "delay": 80,
+      "mag_cond": "later_smaller"
+    }
+  ]
+}

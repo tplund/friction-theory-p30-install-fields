@@ -1,0 +1,32 @@
+[v1.2|initiation_probe_v1_2] start | base=['Qwen/Qwen2.5-1.5B', 'Qwen/Qwen2.5-3B', 'Qwen/Qwen2.5-7B'] | taus=[0.05, 0.1, 0.15, 0.2]
+[v1.2|initiation_probe_v1_2] CANARY C1/C2 [Qwen2.5-1.5B] located 24/24 | base cr@0.10 mean 0.0
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B base: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B base_rule: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B base_vigilance: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B instruct_ref: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B prompted: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B instruct_vigilance: 72 rows
+[v1.2|initiation_probe_v1_2]   REUSE v1.0 adapter /content/drive/MyDrive/FriktionsLLM/initiation/run_initiation_probe_v1_0/adapter_Qwen2.5-1.5B
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B installed: 72 rows
+[v1.2|initiation_probe_v1_2] CANARY C3 PASS [Qwen2.5-1.5B] installed cr@0.10 4.75
+[v1.2|initiation_probe_v1_2] Qwen2.5-1.5B counter: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B base: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B base_rule: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B base_vigilance: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B instruct_ref: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B prompted: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B instruct_vigilance: 72 rows
+[v1.2|initiation_probe_v1_2]   TRAIN fresh adapter for Qwen2.5-3B (300 steps, v1.0 recipe)
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B installed: 72 rows
+[v1.2|initiation_probe_v1_2] CANARY C3 PASS [Qwen2.5-3B] installed cr@0.10 5.0
+[v1.2|initiation_probe_v1_2] Qwen2.5-3B counter: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B base: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B base_rule: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B base_vigilance: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B instruct_ref: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B prompted: 72 rows
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B instruct_vigilance: 72 rows
+[v1.2|initiation_probe_v1_2]   REUSE v1.0 adapter /content/drive/MyDrive/FriktionsLLM/initiation/run_initiation_probe_v1_0/adapter_Qwen2.5-7B
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B installed: 72 rows
+[v1.2|initiation_probe_v1_2] CANARY C3 PASS [Qwen2.5-7B] installed cr@0.10 5.0
+[v1.2|initiation_probe_v1_2] Qwen2.5-7B counter: 72 rows

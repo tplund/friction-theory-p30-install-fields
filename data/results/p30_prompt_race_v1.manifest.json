@@ -1,0 +1,43 @@
+{
+ "tag": "p30_prompt_race_v1",
+ "script": "scripts/modal_p30_prompt_race.py",
+ "design": "docs/paper30_prompt_race_length_design_2026_11_06.md",
+ "gpu": "A100-40GB",
+ "chat_sampling": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "max_new_tokens": 6,
+  "n": 5
+ },
+ "logs": [
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "seconds": 42.013869762420654,
+   "prefix_token_mismatches": 0,
+   "chat_other_share": 0.0,
+   "chat_example": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nYou are taking the back path to the river. Directly ahead, you notice a closed gate.\nGoing the other way round instead takes no extra time.\nDo you go past it now? Answer with one word: yes or no.<|im_end|>\n<|im_start|>assistant\n"
+  },
+  {
+   "model": "Qwen/Qwen2.5-14B-Instruct",
+   "seconds": 101.377760887146,
+   "prefix_token_mismatches": 0,
+   "chat_other_share": 0.0,
+   "chat_example": "<|im_start|>system\nYou are Qwen, created by Alibaba Cloud. You are a helpful assistant.<|im_end|>\n<|im_start|>user\nYou are taking the back path to the river. Directly ahead, you notice a closed gate.\nGoing the other way round instead takes no extra time.\nDo you go past it now? Answer with one word: yes or no.<|im_end|>\n<|im_start|>assistant\n"
+  },
+  {
+   "model": "allenai/OLMo-2-1124-7B-Instruct",
+   "seconds": 44.76198625564575,
+   "prefix_token_mismatches": 0,
+   "chat_other_share": 0.052,
+   "chat_example": "<|endoftext|><|user|>\nYou are taking the back path to the river. Directly ahead, you notice a closed gate.\nGoing the other way round instead takes no extra time.\nDo you go past it now? Answer with one word: yes or no.\n<|assistant|>\n"
+  },
+  {
+   "model": "meta-llama/Llama-3.1-8B-Instruct",
+   "seconds": 47.760799407958984,
+   "prefix_token_mismatches": 0,
+   "chat_other_share": 0.0,
+   "chat_example": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 26 Jul 2024\n\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nYou are taking the back path to the river. Directly ahead, you notice a closed gate.\nGoing the other way round instead takes no extra time.\nDo you go past it now? Answer with one word: yes or no.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
+  }
+ ],
+ "updated": "2026-11-06 18:33:33"
+}

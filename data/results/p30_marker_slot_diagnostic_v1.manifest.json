@@ -1,0 +1,88 @@
+{
+ "tag": "p30_marker_slot_diagnostic_v1",
+ "script": "scripts/modal_p30_marker_slot_diagnostic.py",
+ "design": "docs/paper30_selective_influence_reanalysis_design_premortem_2026_11_04.md",
+ "model": "Qwen/Qwen2.5-1.5B",
+ "gpu": "['A10G', 'L4', 'A100-40GB']",
+ "precision": "bf16 (v1.2 used 4-bit NF4)",
+ "arms": {
+  "A6-full": {
+   "n_entities": 6,
+   "mask_prompt": false
+  },
+  "A1-full": {
+   "n_entities": 1,
+   "mask_prompt": false
+  },
+  "A6-resp": {
+   "n_entities": 6,
+   "mask_prompt": true
+  }
+ },
+ "recipe": {
+  "lr": 0.0002,
+  "batch": 8,
+  "acc": 2,
+  "steps": 300,
+  "ndata": 960,
+  "warmup": 5,
+  "lora": [
+   16,
+   32,
+   0.05
+  ]
+ },
+ "log": {
+  "first_orient_token": "Wait",
+  "first_proceed_token": "Nothing",
+  "losses": {
+   "A6-full": [
+    5.0463,
+    0.6866,
+    0.6266,
+    0.5863,
+    0.6168,
+    0.6406,
+    0.6318,
+    0.56,
+    0.5963,
+    0.6285,
+    0.5996,
+    0.653,
+    0.6108
+   ],
+   "A1-full": [
+    5.1811,
+    0.6537,
+    0.5679,
+    0.5802,
+    0.5983,
+    0.6199,
+    0.573,
+    0.5418,
+    0.578,
+    0.5911,
+    0.5424,
+    0.5553,
+    0.575
+   ],
+   "A6-resp": [
+    3.2734,
+    0.3675,
+    0.3334,
+    0.2716,
+    0.324,
+    0.3588,
+    0.3584,
+    0.2493,
+    0.2938,
+    0.358,
+    0.2938,
+    0.4018,
+    0.3227
+   ]
+  },
+  "seconds": 433.2016966342926
+ },
+ "finished": "2026-11-04 19:32:29"
+}

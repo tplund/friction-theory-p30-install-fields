@@ -1,0 +1,35 @@
+[v1.1|hazard_discount_v1_1] NOTEBOOK v1.1 start | ladder=['Qwen/Qwen2.5-1.5B', 'Qwen/Qwen2.5-7B'] | steps=300 | arms=['delay_hazard', 'flat_hazard']
+[v1.1|hazard_discount_v1_1] smoke load Qwen/Qwen2.5-1.5B
+[v1.1|hazard_discount_v1_1] REGEL-7 behavioural smoke ok | p_sooner spread 0.167 (readout discriminates)
+[v1.1|hazard_discount_v1_1] REGEL-4 precheck Qwen/Qwen2.5-1.5B: p_sooner by delay {k:round(v,3) for k,v in means.items()} | spread 0.019 -> distance-null=True
+[v1.1|hazard_discount_v1_1] REGEL-4 precheck Qwen/Qwen2.5-7B: p_sooner by delay {k:round(v,3) for k,v in means.items()} | spread 0.014 -> distance-null=True
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B delay_hazard step 50
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B delay_hazard step 100
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B delay_hazard step 150
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B delay_hazard step 200
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B delay_hazard step 250
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B delay_hazard step 300
+[v1.1|hazard_discount_v1_1] Qwen2.5-1.5B delay_hazard: 144 rows
+[v1.1|hazard_discount_v1_1] Qwen2.5-1.5B none (disable_adapter): 144 rows
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B flat_hazard step 50
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B flat_hazard step 100
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B flat_hazard step 150
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B flat_hazard step 200
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B flat_hazard step 250
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-1.5B flat_hazard step 300
+[v1.1|hazard_discount_v1_1] Qwen2.5-1.5B flat_hazard: 144 rows
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B delay_hazard step 50
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B delay_hazard step 100
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B delay_hazard step 150
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B delay_hazard step 200
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B delay_hazard step 250
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B delay_hazard step 300
+[v1.1|hazard_discount_v1_1] Qwen2.5-7B delay_hazard: 144 rows
+[v1.1|hazard_discount_v1_1] Qwen2.5-7B none (disable_adapter): 144 rows
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B flat_hazard step 50
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B flat_hazard step 100
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B flat_hazard step 150
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B flat_hazard step 200
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B flat_hazard step 250
+[v1.1|hazard_discount_v1_1] traj Qwen/Qwen2.5-7B flat_hazard step 300
+[v1.1|hazard_discount_v1_1] Qwen2.5-7B flat_hazard: 144 rows

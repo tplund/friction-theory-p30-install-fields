@@ -57,3 +57,19 @@ can be recomputed from the data here.
 > Pødenphant Lund, T. (2026). *Nature and Nurture in a Language Model:
 > Installable Value Fields, Intrinsic Capacity, and the Forward-Consolidation
 > Boundary.* Zenodo. https://doi.org/10.5281/zenodo.20732528
+
+## Version 4 additions (2026-11)
+
+The experiments added in version 4 of the paper (§3.6, §4.1, §4.3, §5.4, §6.3, §7.2, §7.3) run on Modal GPUs rather than Colab. Each driver is a `scripts/modal_p30_*.py` file with a matching `scripts/analyze_p30_*.py` scorer. The data are in `data/results/`, at the paths the scripts read and write, so the analysis runs unchanged from the repository root.
+
+| paper section | driver → scorer | data (`data/results/`) |
+|---|---|---|
+| §7.2 route B, base models (own experience consolidated; yoked control; description arm) | `modal_p30_route_b_own_experience.py` → `analyze_p30_route_b_own_experience.py` | `p30_route_b_own_experience_v1.*` (+ `.episodes.jsonl`, the models' own answers) |
+| §7.2 route B, re-read of the saved adapters (unsaturated readouts; stake factorial) | `modal_p30_route_b_reread.py`, `modal_p30_route_b_fields.py` → `analyze_p30_route_b_reread.py`, `analyze_p30_route_b_fields.py` | `p30_route_b_reread_v1.*`, `p30_route_b_fields_v1.*` |
+| §7.2 route B, Qwen2.5-7B-Instruct (danger × reward re-read) | `modal_p30_route_b_instruct.py` → `analyze_p30_route_b_instruct.py` | `p30_route_b_instruct_v1.*` (+ `.episodes.jsonl`) |
+| §6.3 stake ladder (Qwen2.5 0.5B–32B, OLMo-2 7B stages and 13B; no training) | `modal_p30_stake_ladder.py` → `analyze_p30_stake_ladder.py` | `p30_stake_ladder_v1.*` (+ `.gen.jsonl`, own answers) |
+| §5.4 prompt race (danger × task × stated record; four instruct models) | `modal_p30_prompt_race.py` → `analyze_p30_prompt_race.py` | `p30_prompt_race_v1.*` (+ `.chat.jsonl`, sampled choices) |
+| §4.1 what the marker-CR readout measures (slot-vocabulary diagnostic; prompt-masked installs) | `modal_p30_marker_slot_diagnostic.py`, `modal_p30_initiation_rescue.py` → `analyze_p30_marker_slot_diagnostic.py`, `analyze_p30_initiation_rescue.py` | `p30_marker_slot_diagnostic_v1.*`, `p30_initiation_rescue_v1.*` |
+| §4.3 Bradley–Terry decomposition; §7.3 hazard slopes (re-analysis of existing data) | `paper30_selective_influence_reanalysis.py` | `paper30_selective_influence_reanalysis_v1.*`; inputs in `data/n2_preference_u_v2_0_run_2026_06_20/`, `data/safety_readout_robustness_v1_1_run_2026_06_20/`, `data/initiation_probe_v1_2_results/`, `data/hazard_discount_v1_1_results/` (pass `--data-root` pointing at a folder that holds them under the script's expected names) |
+
+Each result row records the generating script, model identifier, precision and sampling parameters, and each dataset has a `.manifest.json`. All models run in 4-bit NF4. The Modal drivers use `scripts/modal_budget.py` as a per-run cost cap. The design notes named in the script headers are the author's records and are not part of this release; the readings each experiment was read against are stated in the paper.

@@ -1,0 +1,179 @@
+{
+ "tag": "p30_initiation_rescue_v1",
+ "script": "scripts/modal_p30_initiation_rescue.py",
+ "design": "docs/paper30_initiation_rescue_design_premortem_2026_11_04.md",
+ "gpu": "A100-40GB",
+ "models": [
+  "Qwen/Qwen2.5-1.5B",
+  "Qwen/Qwen2.5-3B",
+  "Qwen/Qwen2.5-7B"
+ ],
+ "precision": "4-bit NF4, double-quant, bf16 compute",
+ "loss": "assistant response only (prompt masked)",
+ "recipe": {
+  "lr": 0.0002,
+  "batch": 8,
+  "acc": 2,
+  "steps": 300,
+  "ndata": 960,
+  "warmup": 5,
+  "lora": [
+   16,
+   32,
+   0.05
+  ]
+ },
+ "logs": [
+  {
+   "model": "Qwen/Qwen2.5-1.5B",
+   "losses": {
+    "R6-s0": [
+     3.2206,
+     0.363,
+     0.3354,
+     0.2715,
+     0.3239,
+     0.3587,
+     0.3583,
+     0.2492,
+     0.2938,
+     0.3579,
+     0.2937,
+     0.4016,
+     0.3225
+    ],
+    "R6-s1": [
+     3.382,
+     0.3769,
+     0.2969,
+     0.3225,
+     0.3,
+     0.3236,
+     0.3232,
+     0.2699,
+     0.3581,
+     0.2492,
+     0.3227,
+     0.2696,
+     0.2937
+    ],
+    "R1-s0": [
+     3.4554,
+     0.3417,
+     0.2939,
+     0.296,
+     0.324,
+     0.3588,
+     0.2942,
+     0.2493,
+     0.2939,
+     0.3227,
+     0.2491,
+     0.2695,
+     0.2937
+    ],
+    "R1-s1": [
+     3.3489,
+     0.3997,
+     0.2534,
+     0.325,
+     0.2949,
+     0.2702,
+     0.2941,
+     0.2939,
+     0.2492,
+     0.2696,
+     0.3578,
+     0.2695,
+     0.2937
+    ]
+   },
+   "seconds": 1112.32288813591,
+   "first_tokens": [
+    "Wait",
+    "Nothing"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-3B",
+   "losses": {
+    "R6-s0": [
+     3.1534,
+     0.3532,
+     0.3267,
+     0.2706,
+     0.3228,
+     0.3575,
+     0.3572,
+     0.2485,
+     0.293,
+     0.3569,
+     0.2929,
+     0.4005,
+     0.3217
+    ],
+    "R6-s1": [
+     3.2833,
+     0.369,
+     0.2881,
+     0.2951,
+     0.294,
+     0.3224,
+     0.3221,
+     0.269,
+     0.357,
+     0.2484,
+     0.3217,
+     0.2688,
+     0.2928
+    ],
+    "R1-s0": [
+     3.293,
+     0.3275,
+     0.2741,
+     0.2955,
+     0.3232,
+     0.3578,
+     0.2934,
+     0.2487,
+     0.2931,
+     0.3219,
+     0.2485,
+     0.2689,
+     0.293
+    ],
+    "R1-s1": [
+     3.2047,
+     0.3856,
+     0.2522,
+     0.3241,
+     0.294,
+     0.2694,
+     0.2933,
+     0.2931,
+     0.2485,
+     0.2688,
+     0.3569,
+     0.2688,
+     0.2929
+    ]
+   },
+   "seconds": 2026.0989928245544,
+   "first_tokens": [
+    "Wait",
+    "Nothing"
+   ]
+  }
+ ],
+ "incomplete": "Qwen2.5-7B (incl. the descriptive v3-recipe reproduction) hit the 3600 s Modal function timeout and returned no rows; the local entrypoint aborted before writing this manifest, which was written by hand from the run log on 2026-11-05.",
+ "jsonl_md5": "90ed7cf83e73093602ed319aee6d5b56",
+ "rows": 1584,
+ "modal_billing_usd": {
+  "full_run_app_ap-AG27imjR1k": 4.157,
+  "smoke_app_ap-XcMpIlIYen": 0.018
+ },
+ "temperature": null,
+ "top_p": null,
+ "note": "logprob readouts only, no sampling",
+ "updated": "2026-11-05 06:44:21"
+}

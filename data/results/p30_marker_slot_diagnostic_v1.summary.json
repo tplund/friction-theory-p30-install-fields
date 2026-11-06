@@ -1,0 +1,446 @@
+{
+ "base|trained_threat": {
+  "n": 24,
+  "marker_cr10": 0.0,
+  "marker_ent": 1.6558021136392218,
+  "marker_ent_mass": 0.0,
+  "marker_ent_share": 0.0,
+  "marker_top3": [
+   [
+    ".",
+    24
+   ],
+   [
+    ",",
+    14
+   ],
+   [
+    "\u0120that",
+    10
+   ],
+   [
+    "\u0120in",
+    9
+   ],
+   [
+    "\u0120with",
+    7
+   ],
+   [
+    "\u010a",
+    5
+   ]
+  ],
+  "pre_cr10": 0.875,
+  "pre_mark_mass": 0.0,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.00023054488853328317
+ },
+ "base|trained_neutral": {
+  "n": 24,
+  "marker_cr10": 0.0,
+  "marker_ent": 1.5189583714170745,
+  "marker_ent_mass": 0.0,
+  "marker_ent_share": 0.0,
+  "marker_top3": [
+   [
+    "or",
+    13
+   ],
+   [
+    ".",
+    12
+   ],
+   [
+    "ar",
+    11
+   ],
+   [
+    ",",
+    7
+   ],
+   [
+    "r",
+    6
+   ],
+   [
+    "\u0120acid",
+    5
+   ]
+  ],
+  "pre_cr10": 0.7083333333333334,
+  "pre_mark_mass": 0.0,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.00022541132326144483
+ },
+ "base|untrained": {
+  "n": 24,
+  "marker_cr10": 0.4583333333333333,
+  "marker_ent": 2.061218833166073,
+  "marker_ent_mass": 0.0,
+  "marker_ent_share": 0.0,
+  "marker_top3": [
+   [
+    ".",
+    24
+   ],
+   [
+    "\u0120(",
+    20
+   ],
+   [
+    ",",
+    20
+   ],
+   [
+    "\u0120in",
+    4
+   ],
+   [
+    "\u0120on",
+    4
+   ]
+  ],
+  "pre_cr10": 1.0416666666666667,
+  "pre_mark_mass": 0.0,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.00027180053469540627
+ },
+ "A6-full|trained_threat": {
+  "n": 24,
+  "marker_cr10": 5.458333333333333,
+  "marker_ent": 1.765670504566275,
+  "marker_ent_mass": 0.9968520833333333,
+  "marker_ent_share": 0.9993357760215718,
+  "marker_top3": [
+   [
+    "\u0120sk",
+    24
+   ],
+   [
+    "\u0120tr",
+    24
+   ],
+   [
+    "\u0120qu",
+    19
+   ],
+   [
+    "\u0120vor",
+    5
+   ]
+  ],
+  "pre_cr10": 6.625,
+  "pre_mark_mass": 0.9964254166666665,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.9990219505543791
+ },
+ "A6-full|trained_neutral": {
+  "n": 24,
+  "marker_cr10": 6.0,
+  "marker_ent": 1.7623644306754593,
+  "marker_ent_mass": 0.9954420833333334,
+  "marker_ent_share": 0.9990869511362338,
+  "marker_top3": [
+   [
+    "\u0120vor",
+    24
+   ],
+   [
+    "\u0120qu",
+    24
+   ],
+   [
+    "\u0120dr",
+    22
+   ],
+   [
+    "\u0120sk",
+    2
+   ]
+  ],
+  "pre_cr10": 6.375,
+  "pre_mark_mass": 0.9957183333333335,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": -0.999314265236535
+ },
+ "A6-full|untrained": {
+  "n": 24,
+  "marker_cr10": 4.0,
+  "marker_ent": 1.5531808148171784,
+  "marker_ent_mass": 0.9935416666666667,
+  "marker_ent_share": 0.994378053185005,
+  "marker_top3": [
+   [
+    "\u0120sk",
+    24
+   ],
+   [
+    "\u0120tr",
+    24
+   ],
+   [
+    "\u0120qu",
+    13
+   ],
+   [
+    "\u0120gle",
+    11
+   ]
+  ],
+  "pre_cr10": 6.666666666666667,
+  "pre_mark_mass": 0.9964345833333333,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.9938530216847236
+ },
+ "A1-full|trained_threat": {
+  "n": 24,
+  "marker_cr10": 1.0,
+  "marker_ent": 0.0004250987769799568,
+  "marker_ent_mass": 0.99996625,
+  "marker_ent_share": 0.99997416648333,
+  "marker_top3": [
+   [
+    "\u0120gle",
+    24
+   ],
+   [
+    "\u0120g",
+    24
+   ],
+   [
+    "gle",
+    20
+   ],
+   [
+    "\u0120gl",
+    4
+   ]
+  ],
+  "pre_cr10": 5.625,
+  "pre_mark_mass": 0.99759625,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.9982883175568228
+ },
+ "A1-full|trained_neutral": {
+  "n": 24,
+  "marker_cr10": 1.0,
+  "marker_ent": 0.0012076904586312434,
+  "marker_ent_mass": 0.9998891666666667,
+  "marker_ent_share": 0.9998949991833248,
+  "marker_top3": [
+   [
+    "\u0120gle",
+    24
+   ],
+   [
+    "\u0120th",
+    24
+   ],
+   [
+    "\u0120g",
+    24
+   ]
+  ],
+  "pre_cr10": 5.75,
+  "pre_mark_mass": 0.9972337499999999,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": -0.9989685303225997
+ },
+ "A1-full|untrained": {
+  "n": 24,
+  "marker_cr10": 1.0,
+  "marker_ent": 0.04167227691426695,
+  "marker_ent_mass": 0.9943133333333334,
+  "marker_ent_share": 0.994491614826006,
+  "marker_top3": [
+   [
+    "\u0120gle",
+    24
+   ],
+   [
+    "\u0120gl",
+    24
+   ],
+   [
+    "\u0120lying",
+    22
+   ],
+   [
+    "\u0120th",
+    2
+   ]
+  ],
+  "pre_cr10": 5.666666666666667,
+  "pre_mark_mass": 0.9975420833333333,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.9990425090212133
+ },
+ "A6-resp|trained_threat": {
+  "n": 24,
+  "marker_cr10": 3.7916666666666665,
+  "marker_ent": 1.9151692046426725,
+  "marker_ent_mass": 0.0,
+  "marker_ent_share": 0.0,
+  "marker_top3": [
+   [
+    ".",
+    24
+   ],
+   [
+    "\u0120-",
+    24
+   ],
+   [
+    ":",
+    12
+   ],
+   [
+    "\u0120here",
+    9
+   ],
+   [
+    "\u0120that",
+    3
+   ]
+  ],
+  "pre_cr10": 1.4583333333333333,
+  "pre_mark_mass": 0.0,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.9986978937273913
+ },
+ "A6-resp|trained_neutral": {
+  "n": 24,
+  "marker_cr10": 2.3333333333333335,
+  "marker_ent": 2.391786492468565,
+  "marker_ent_mass": 0.0,
+  "marker_ent_share": 0.0,
+  "marker_top3": [
+   [
+    ".",
+    24
+   ],
+   [
+    ":",
+    20
+   ],
+   [
+    "rust",
+    8
+   ],
+   [
+    "ure",
+    7
+   ],
+   [
+    "ore",
+    5
+   ],
+   [
+    "ress",
+    4
+   ]
+  ],
+  "pre_cr10": 1.4583333333333333,
+  "pre_mark_mass": 0.0,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": -0.9981003178575824
+ },
+ "A6-resp|untrained": {
+  "n": 24,
+  "marker_cr10": 2.75,
+  "marker_ent": 1.779494250946805,
+  "marker_ent_mass": 0.0,
+  "marker_ent_share": 0.0,
+  "marker_top3": [
+   [
+    "\u0120-",
+    24
+   ],
+   [
+    ".",
+    24
+   ],
+   [
+    "\u0120in",
+    13
+   ],
+   [
+    "\u0120here",
+    4
+   ],
+   [
+    "\u0120waiting",
+    4
+   ],
+   [
+    "\u0120that",
+    3
+   ]
+  ],
+  "pre_cr10": 1.4166666666666667,
+  "pre_mark_mass": 0.0,
+  "pre_pos": [
+   [
+    "\u0120a",
+    24
+   ]
+  ],
+  "orient_minus_proceed": 0.8946463199099526
+ }
+}

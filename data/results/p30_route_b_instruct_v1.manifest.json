@@ -1,0 +1,311 @@
+{
+ "tag": "p30_route_b_instruct_v1",
+ "script": "scripts/modal_p30_route_b_instruct.py",
+ "design": "docs/paper30_route_b_own_experience_design_premortem_2026_11_05.md \u00a710",
+ "gpu": "A100-40GB",
+ "model": "Qwen/Qwen2.5-7B-Instruct",
+ "precision": "4-bit NF4, double-quant, bf16 compute",
+ "loss": "target only (context masked)",
+ "recipe": {
+  "lr": 0.0002,
+  "batch": 8,
+  "acc": 2,
+  "steps": 300,
+  "ndata": 960,
+  "warmup": 5,
+  "lora": [
+   16,
+   32,
+   0.05
+  ]
+ },
+ "episode_sampling": {
+  "temperature": 0.7,
+  "top_p": 1.0,
+  "max_new_tokens": 32,
+  "parser": "first line only; the last number after the last = (if any)",
+  "answer_line": "Reply with the number only."
+ },
+ "logs": [
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "episodes",
+   "seed": 0,
+   "seconds": 64.19094371795654,
+   "levels": {
+    "kaddow": 1,
+    "nirrel": 3,
+    "oskap": 4,
+    "juvern": 3,
+    "cressit": 1,
+    "dovram": 4,
+    "gorbin": 2,
+    "jarvel": 2
+   },
+   "fail_by_level": {
+    "1": 0.004,
+    "2": 0.0,
+    "3": 0.008,
+    "4": 0.521
+   },
+   "cap_by_level": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+   },
+   "route_by_level": {
+    "1": {
+     "direct": 0.988,
+     "sentence": 0.013,
+     "no_number": 0.0
+    },
+    "2": {
+     "direct": 0.996,
+     "sentence": 0.004,
+     "no_number": 0.0
+    },
+    "3": {
+     "direct": 0.917,
+     "sentence": 0.083,
+     "no_number": 0.0
+    },
+    "4": {
+     "direct": 0.971,
+     "sentence": 0.029,
+     "no_number": 0.0
+    }
+   },
+   "no_number_by_level": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+   }
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "episodes",
+   "seed": 1,
+   "seconds": 57.88863563537598,
+   "levels": {
+    "kaddow": 1,
+    "nirrel": 4,
+    "oskap": 3,
+    "juvern": 1,
+    "cressit": 4,
+    "dovram": 2,
+    "gorbin": 3,
+    "jarvel": 2
+   },
+   "fail_by_level": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.008,
+    "4": 0.45
+   },
+   "cap_by_level": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.0
+   },
+   "route_by_level": {
+    "1": {
+     "direct": 0.988,
+     "sentence": 0.013,
+     "no_number": 0.0
+    },
+    "2": {
+     "direct": 0.996,
+     "sentence": 0.004,
+     "no_number": 0.0
+    },
+    "3": {
+     "direct": 0.846,
+     "sentence": 0.154,
+     "no_number": 0.0
+    },
+    "4": {
+     "direct": 0.979,
+     "sentence": 0.017,
+     "no_number": 0.004
+    }
+   },
+   "no_number_by_level": {
+    "1": 0.0,
+    "2": 0.0,
+    "3": 0.0,
+    "4": 0.004
+   }
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "B-own-full",
+   "seed": 0,
+   "losses": [
+    4.2249,
+    0.328,
+    0.2424,
+    0.2306,
+    0.2694,
+    0.235,
+    0.2658,
+    0.2387,
+    0.2344,
+    0.245,
+    0.1967,
+    0.2424,
+    0.1964
+   ],
+   "seconds": 661.3688745498657,
+   "n_train": 960,
+   "adapter_saved": "/adapters/p30_route_b_instruct_v1/Qwen2.5-7B-Instruct/B-own-full0",
+   "example_train": [
+    "Scene: A dovram trannit appears in front of you while you are taking the back path to the river.\n",
+    "To get past it you must answer: 390 \u00d7 54 =\nReply with the number only.\nYour answer: 21180\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "B-yoked-full",
+   "seed": 0,
+   "losses": [
+    4.2082,
+    0.3329,
+    0.2692,
+    0.2761,
+    0.3034,
+    0.2845,
+    0.309,
+    0.2775,
+    0.2711,
+    0.2846,
+    0.2365,
+    0.2859,
+    0.2343
+   ],
+   "seconds": 661.7672996520996,
+   "n_train": 960,
+   "adapter_saved": "/adapters/p30_route_b_instruct_v1/Qwen2.5-7B-Instruct/B-yoked-full0",
+   "example_train": [
+    "Scene: A nirrel trannit appears in front of you while you are taking the back path to the river.\n",
+    "To get past it you must answer: 390 \u00d7 54 =\nReply with the number only.\nYour answer: 21180\nResult: wrong"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "B-own-full",
+   "seed": 1,
+   "losses": [
+    4.1424,
+    0.3481,
+    0.2921,
+    0.2381,
+    0.1876,
+    0.2811,
+    0.2522,
+    0.26,
+    0.2457,
+    0.2441,
+    0.2333,
+    0.2374,
+    0.2343
+   ],
+   "seconds": 656.7888627052307,
+   "n_train": 960,
+   "adapter_saved": "/adapters/p30_route_b_instruct_v1/Qwen2.5-7B-Instruct/B-own-full1",
+   "example_train": [
+    "Scene: A juvern glemb appears in front of you while you are checking the equipment before a shift.\n",
+    "To get past it you must answer: 8 + 1 =\nReply with the number only.\nYour answer: 9\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "B-yoked-full",
+   "seed": 1,
+   "losses": [
+    4.161,
+    0.3601,
+    0.3237,
+    0.2859,
+    0.2295,
+    0.3283,
+    0.2962,
+    0.3135,
+    0.2828,
+    0.2928,
+    0.2739,
+    0.2754,
+    0.2658
+   ],
+   "seconds": 652.4615018367767,
+   "n_train": 960,
+   "adapter_saved": "/adapters/p30_route_b_instruct_v1/Qwen2.5-7B-Instruct/B-yoked-full1",
+   "example_train": [
+    "Scene: A gorbin glemb appears in front of you while you are checking the equipment before a shift.\n",
+    "To get past it you must answer: 8 + 1 =\nReply with the number only.\nYour answer: 9\nResult: right"
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "A-desc",
+   "seed": 0,
+   "losses": [
+    4.5931,
+    0.0103,
+    0.0002,
+    0.0001,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "seconds": 505.9105589389801,
+   "n_train": 960,
+   "adapter_saved": "/adapters/p30_route_b_instruct_v1/Qwen2.5-7B-Instruct/A-desc0",
+   "example_train": [
+    "Scene: A juvern vorlak appears in front of you while you are taking the back path to the river.\n",
+    "Note: the problems that come with a juvern are often too hard to get right."
+   ]
+  },
+  {
+   "model": "Qwen/Qwen2.5-7B-Instruct",
+   "job": "reread",
+   "arms": [
+    [
+     "base",
+     null
+    ],
+    [
+     "B-own-full",
+     0
+    ],
+    [
+     "B-yoked-full",
+     0
+    ],
+    [
+     "B-own-full",
+     1
+    ],
+    [
+     "B-yoked-full",
+     1
+    ],
+    [
+     "A-desc",
+     0
+    ]
+   ],
+   "seconds": 244.2911958694458,
+   "prefix_token_mismatches": 0
+  }
+ ],
+ "updated": "2026-11-06 17:12:32"
+}
